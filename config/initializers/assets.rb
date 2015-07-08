@@ -10,6 +10,7 @@ Rails.application.config.assets.version = '1.0'
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 #Rails.application.config.assets.precompile += %w( search.js )
 Rails.application.config.assets.precompile += %w( style.css )
+Rails.application.config.assets.precompile += %w( skel.css )
 Rails.application.config.assets.precompile += %w( style-1000px.css )
 Rails.application.config.assets.precompile += %w( style-desktop.css )
 Rails.application.config.assets.precompile += %w( style-mobile.css )
