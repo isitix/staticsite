@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Rails isitix: development" uuid="cbc4d7b4-83ed-432b-bebf-487d151d841d">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails isitix: test" uuid="7880df45-ed88-41e4-8191-f87b309d3ef8">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source name="Rails isitix: production" uuid="8d6f1c0d-63a8-41ad-9828-4fb5851270de">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
