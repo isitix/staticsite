@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
   def index
-    @message = "ISITIX"
+    @contact = Contact.new
   end
 end

@@ -79,34 +79,7 @@
             <div class="row" id="contactform">
                 <div class="6u">
                     <section>
-                        <%= form_for Contact.new, url: {action: "create"} do %>
-                            <div class="row 50%">
-                                <div class="6u">
-                                    <%= f.text_field :name, :placeholder => 'Nom' %>
-                                </div>
-                                <div class="6u">
-                                    <%= f.text_field :email, :placeholder => 'Email' %>
-                                </div>
-                            </div>
-                            <div class="row 50%">
-                                <div class="6u">
-                                    <%= f.text_field :company, :placeholder => 'Société' %>
-                                </div>
-                                <div class="6u">
-                                    <%= f.text_field :phone, :placeholder => 'Téléphone' %>
-                                </div>
-                            </div>
-                            <div class="row 50%">
-                                <div class="12u">
-                                    <%= f.text_area :message, :placeholder => 'Message' %>
-                                </div>
-                            </div>
-                            <div class="row 50%">
-                                <div class="12u">
-                                    <a href="javascript:{}" onclick="this.submit(); return false;" class="form-button-submit button icon fa-envelope">Envoyer</a>
-                                </div>
-                            </div>
-                        <% end %>
+                        <%= render "contacts/form" %>
                     </section>
                 </div>
                 <div class="6u">
