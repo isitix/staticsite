@@ -79,35 +79,34 @@
             <div class="row" id="contactform">
                 <div class="6u">
                     <section>
-                        <form method="post" action="#">
+                        <%= form_for Contact.new, url: {action: "create"} do %>
                             <div class="row 50%">
                                 <div class="6u">
-                                    <input name="name" placeholder="Nom" type="text"/>
+                                    <%= f.text_field :name, :placeholder => 'Nom' %>
                                 </div>
                                 <div class="6u">
-                                    <input name="email" placeholder="Email" type="text"/>
+                                    <%= f.text_field :email, :placeholder => 'Email' %>
                                 </div>
                             </div>
                             <div class="row 50%">
                                 <div class="6u">
-                                    <input name="company" placeholder="Société" type="text"/>
+                                    <%= f.text_field :company, :placeholder => 'Société' %>
                                 </div>
                                 <div class="6u">
-                                    <input name="phone" placeholder="Téléphone" type="text"/>
-                                </div>
-                            </div>
-
-                            <div class="row 50%">
-                                <div class="12u">
-                                    <textarea name="message" placeholder="Message"></textarea>
+                                    <%= f.text_field :phone, :placeholder => 'Téléphone' %>
                                 </div>
                             </div>
                             <div class="row 50%">
                                 <div class="12u">
-                                    <a href="#" class="form-button-submit button icon fa-envelope">Envoyer</a>
+                                    <%= f.text_area :message, :placeholder => 'Message' %>
                                 </div>
                             </div>
-                        </form>
+                            <div class="row 50%">
+                                <div class="12u">
+                                    <a href="javascript:{}" onclick="this.submit(); return false;" class="form-button-submit button icon fa-envelope">Envoyer</a>
+                                </div>
+                            </div>
+                        <% end %>
                     </section>
                 </div>
                 <div class="6u">
@@ -142,6 +141,8 @@
                 <h2>Une équipe de consultants seniors qui vous apporte une
                     forte plus-value dans vos projets
                 </h2>
+
+                <p id="notice"><%= notice %></p>
             </header>
             <div class="row">
                 <div class="4u">
