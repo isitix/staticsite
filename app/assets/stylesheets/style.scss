@@ -46,6 +46,9 @@
 		color: #888;
 	}
 
+    .error {
+      color: red;
+    }
 h3 {
 	color: #ed786a;
 }
@@ -694,6 +697,7 @@ h3 {
 	position: relative;
 	overflow: hidden;
 	background: #f0f0f0;
+    padding: 0.5em;
 }
 
 #contact-wrapper form input[type="text"],

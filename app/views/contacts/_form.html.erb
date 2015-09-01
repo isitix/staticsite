@@ -1,11 +1,11 @@
 <%= form_for(@contact) do |f| %>
     <% if @contact.errors.any? %>
         <div id="error_explanation">
-            <h2><%= pluralize(@contact.errors.count, "error") %> prohibited this contact from being saved:</h2>
+            <h2>Votre demande de contact comporte des erreurs :</h2>
 
             <ul>
                 <% @contact.errors.full_messages.each do |message| %>
-                    <li><%= message %></li>
+                    <li class="error"><%= message %></li>
                 <% end %>
             </ul>
         </div>
@@ -13,22 +13,27 @@
 
     <div class="row 50%">
         <div class="6u">
+            <%= f.label :name, "nom" %>
             <%= f.text_field :name, :placeholder => 'Nom' %>
         </div>
         <div class="6u">
+            <%= f.label :email, "email" %>
             <%= f.text_field :email, :placeholder => 'Email' %>
         </div>
     </div>
     <div class="row 50%">
         <div class="6u">
+            <%= f.label :company, "société" %>
             <%= f.text_field :company, :placeholder => 'Société' %>
         </div>
         <div class="6u">
+            <%= f.label :phone, "téléphone" %>
             <%= f.text_field :phone, :placeholder => 'Téléphone' %>
         </div>
     </div>
     <div class="row 50%">
         <div class="12u">
+            <%= f.label :content, "message" %>
             <%= f.text_area :content, :placeholder => 'Message' %>
         </div>
     </div>
@@ -38,4 +43,3 @@
         </div>
     </div>
 <% end %>
-
