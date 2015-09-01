@@ -73,8 +73,12 @@
     <div id="contact-wrapper">
         <div id="contact" class="container">
             <header>
-                <strong><a href="#" onclick="toggle_visibility('contactform');" class="icon fa-envelope"> Nous
-                    contacter (click here)</a></strong>
+                <strong>
+                    <% if flash[:notice] %><%= flash[:notice] %>
+                    <% else %>
+                        <a href="#" onclick="toggle_visibility('contactform');" class="icon fa-envelope"> Nous
+                            contacter (click here)</a></strong>
+                    <% end %>
             </header>
             <div class="row" id="contactform">
                 <div class="6u">
@@ -114,8 +118,6 @@
                 <h2>Une équipe de consultants seniors qui vous apporte une
                     forte plus-value dans vos projets
                 </h2>
-
-                <p id="notice"><%= notice %></p>
             </header>
             <div class="row">
                 <div class="4u">
