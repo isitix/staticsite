@@ -5,14 +5,14 @@
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/isitix_development</jdbc-url>
+      <jdbc-url>jdbc:postgresql:isitix_development</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails isitix: test" uuid="7880df45-ed88-41e4-8191-f87b309d3ef8">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/isitix_test</jdbc-url>
+      <jdbc-url>jdbc:postgresql:isitix_test</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails isitix: production" uuid="8d6f1c0d-63a8-41ad-9828-4fb5851270de">
