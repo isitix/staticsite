@@ -16,7 +16,6 @@
 #
 default: &default
   adapter: postgresql
-  database: isitix_production
   pool: 5
   timeout: 5000
   # For details on connection pooling, see rails configuration guide
@@ -25,6 +24,8 @@ default: &default
 development:
   <<: *default
   database: isitix_development
+  username: postgres
+  password: a$g+msx
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
