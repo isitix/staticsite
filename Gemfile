@@ -27,6 +27,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # icons and fonts
 gem 'font-awesome-rails', '~> 4.4'
 
+# data seed
+gem 'seed-fu', '~> 2.3'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
