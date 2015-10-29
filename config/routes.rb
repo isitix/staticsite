@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :articles
+
   resources :contacts, :only => [:new, :create]
 
   get '/contacts', to: 'welcome#index'

@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+<article class="box post">
+    <header>
+        <h2 id="technologie"><%= @article.title %></h2>
+    </header>
+    <span class="image featured"><%= image_tag("enconstruction.jpg") %></span>
+    <%= @article.big_content.html_safe %>
+    <%= link_to 'Edit', edit_article_path(@article) %> |
+<%= link_to 'Back', articles_path %>
