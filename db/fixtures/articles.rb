@@ -98,10 +98,3 @@ Article.seed do |s|
 
   "
 end
-#t.string :title
-#t.string :small_picture (288x262)
-#t.string :keywords
-#t.text :small_content
-#t.text :big_content
-#t.first_picture (771x257)
-#t.timestamps null: false
