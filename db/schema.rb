@@ -17,33 +17,36 @@ ActiveRecord::Schema.define(version: 20151118135318) do
   enable_extension "plpgsql"
 
   create_table "articles", force: :cascade do |t|
-    t.string "title"
-    t.string "small_picture"
-    t.string "keywords"
-    t.text "small_content"
-    t.text "big_content"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string "first_picture"
+    t.string   "title"
+    t.string   "small_picture"
+    t.string   "keywords"
+    t.text     "small_content"
+    t.text     "big_content"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+    t.string   "first_picture"
   end
 
   create_table "contacts", force: :cascade do |t|
-    t.string "name"
-    t.string "company"
-    t.string "phone"
-    t.string "email"
-    t.string "content"
+    t.string   "name"
+    t.string   "company"
+    t.string   "phone"
+    t.string   "email"
+    t.string   "content"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "menus", force: :cascade do |t|
-    t.integer "article_id"
-    t.integer "menu_id"
-    t.string "name"
-    t.integer "level"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "article_id"
+    t.integer  "menu_id"
+    t.string   "name"
+    t.integer  "level"
+    t.integer  "priority",   default: 1
+    t.string   "icon"
+    t.boolean  "visibility", default: false
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
   end
 
   add_index "menus", ["article_id"], name: "index_menus_on_article_id", using: :btree

@@ -5,8 +5,11 @@ class CreateMenus < ActiveRecord::Migration
       t.belongs_to :menu, index: true
       t.string :name
       t.integer :level
+      t.integer :priority, :default => 1
       t.integer :menu_id
       t.integer :article_id
+      t.string :icon
+      t.boolean :visibility, :default => false
       t.timestamps null: false
     end
   end
