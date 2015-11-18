@@ -1,3 +1,3 @@
 ##Menus
 
-id | name | level | menu_id | article_id | anchor_name
+id | name | level | menu_id | article_id

@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :menus
+
   resources :articles
 
   # limitation des acces en lecture/ecriture a contacts et articles
