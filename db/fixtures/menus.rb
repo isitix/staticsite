@@ -2,6 +2,7 @@
 Menu.seed do |s|
   s.id = 1
   s.name = "Société"
+  s.icon = "icon fa-home"
   s.level = 1
   s.article_id = 1
   s.menu_id = 1
@@ -46,6 +47,7 @@ end
 Menu.seed do |s|
   s.id = 7
   s.name = "Offre de service"
+  s.icon = "icon fa-rocket"
   s.level = 1
   s.article_id = 2
   s.menu_id = 7
@@ -157,6 +159,7 @@ end
 #################################
 Menu.seed do |s|
   s.id = 22
+  s.icon = "icon fa-diamond"
   s.name = "Domaines d'expertise"
   s.level = 1
   s.article_id = 3
@@ -216,6 +219,7 @@ end
 ###################
 Menu.seed do |s|
   s.id = 30
+  s.icon = "icon fa-comments-o"
   s.name = "Infrastructure grid"
   s.level = 1
   s.article_id = 4
@@ -226,6 +230,7 @@ end
 ####################
 Menu.seed do |s|
   s.id = 30
+  s.icon = "icon fa-eur"
   s.name = "Tarifs"
   s.level = 1
   s.article_id = 5
@@ -257,6 +262,7 @@ end
 ####################
 Menu.seed do |s|
   s.id = 34
+  s.icon = "icon fa-question-circle"
   s.name = "FAQ"
   s.level = 1
   s.article_id = 6
