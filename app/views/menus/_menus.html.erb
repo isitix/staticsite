@@ -1,0 +1,22 @@
+<nav id="nav">
+    <ul>
+        <% @top_menus.each do |menu| %>
+            <li><a class="<%= menu.icon %>" href="#"><span><%= menu.name %></span></a>
+                <% if menu.menus.count > 0 %>
+                    <ul>
+                        <% menu.menus.each do |menu2| %>
+                            <li><a href="#"><%= menu2.name %></a></li>
+                            <% if menu2.menus.count > 0 %>
+                                <ul>
+                                    <% menu2.menus.each do |menu3| %>
+                                        <li><a href="#"><%= menu3.name %></a></li>
+                                    <% end %>
+                                </ul>
+                            <% end %>
+                        <% end %>
+                    </ul>
+                <% end %>
+            </li>
+        <% end %>
+    </ul>
+</nav>
