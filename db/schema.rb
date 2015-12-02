@@ -37,7 +37,7 @@ ActiveRecord::Schema.define(version: 20151118135318) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "menus", force: :cascade do |t|
+  create_table "topmenus", force: :cascade do |t|
     t.integer  "article_id"
     t.integer  "menu_id"
     t.string   "name"

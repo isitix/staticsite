@@ -2,13 +2,13 @@ require 'test_helper'
 
 class MenusControllerTest < ActionController::TestCase
   setup do
-    @menu = menus(:one)
+    @menu = topmenus(:one)
   end
 
   test "should get index" do
     get :index
     assert_response :success
-    assert_not_nil assigns(:menus)
+    assert_not_nil assigns(:topmenus)
   end
 
   test "should get new" do

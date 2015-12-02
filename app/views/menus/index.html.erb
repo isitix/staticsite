@@ -14,10 +14,10 @@
     </thead>
 
     <tbody>
-    <% @menus.each do |menu| %>
+    <% @top_menus.each do |menu| %>
         <tr>
             <td><%= menu.name %></td>
-            <td><%= menu.level %></td>
+            <td><%= menu.top_menus.count %></td>
             <td><%= menu.menu_id %></td>
             <td><%= menu.article_id %></td>
             <td><%= link_to 'Show', menu %></td>
