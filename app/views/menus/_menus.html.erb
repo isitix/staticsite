@@ -1,6 +1,6 @@
 <nav id="nav">
     <ul>
-        <% @top_menus.each do |menu| %>
+        <% top_menus.each do |menu| %>
             <li><a class="<%= menu.icon %>" href="#"><span><%= menu.name %></span></a>
                 <% if menu.menus.count > 0 %>
                     <ul>

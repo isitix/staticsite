@@ -9,7 +9,7 @@
 
             <p><strong>Cabinet de conseil IT indépendant</strong></p>
             <!-- Nav -->
-            <%= render 'menus/menus' %>
+            <%= render partial: 'menus/menus', locals: {top_menus: @menus} %>
         </div>
     </div>
     <!-- Features -->
@@ -20,51 +20,7 @@
                     forte plus-value dans vos projets
                 </h2>
             </header>
-            <div class="row">
-                <div class="4u">
-
-                    <!-- Feature -->
-                    <section>
-
-                        <a href="#" class="image featured"><%= image_tag("enconstruction.jpg") %></a>
-                        <header>
-                            <h3>Site en construction</h3>
-                        </header>
-                        <p>Laissez vos coordonnées pour être tenu informé du lancement du site</p>
-                        <a href="#contactform" onclick="set_visible('contactform');return true;"
-                           class="button icon fa-plus-circle">En savoir plus</a>
-                    </section>
-
-                </div>
-                <div class="4u">
-
-                    <!-- Feature -->
-                    <section>
-                        <a href="#" class="image featured"><%=image_tag("enconstruction2.jpg")%></a>
-                        <header>
-                            <h3>Site en construction</h3>
-                        </header>
-                        <p>Laissez vos coordonnées pour être tenu informé du lancement du site</p>
-                        <a href="#contactform" onclick="set_visible('contactform');return true;"
-                           class="button icon fa-plus-circle">En savoir plus</a>
-                    </section>
-
-                </div>
-                <div class="4u">
-
-                    <!-- Feature -->
-                    <section>
-                        <a href="#" class="image featured"><%=image_tag("enconstruction1.jpg") %></a>
-                        <header>
-                            <h3>Site en construction</h3>
-                        </header>
-                        <p>Laissez vos coordonnées pour être tenu informé du lancement du site</p>
-                        <a href="#contactform" onclick="set_visible('contactform');return true;"
-                           class="button icon fa-plus-circle">En savoir plus</a>
-                    </section>
-
-                </div>
-            </div>
+            <%= render partial: 'articles/horizontallist', locals: {articles: @articles} %>
         </section>
     </div>
 
