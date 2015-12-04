@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ISITIX : partenaire de votre infrastructure informatique</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <!--[if lte IE 8]><script src='<%= asset_path("ie/html5shiv.js") %>'></script><![endif]-->
+
+    <!--<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>-->
+    <script src='<%= asset_path("jquery.min.js") %>'></script>
+    <script src='<%= asset_path("jquery.dropotron.min.js") %>'></script>
+    <script src='<%= asset_path("skel.min.js") %>'></script>
+    <script src='<%= asset_path("skel-layers.min.js") %>'></script>
+    <script src='<%= asset_path("init.js.erb") %>'></script>
+    <noscript>
+        <link rel="stylesheet" href='<%= asset_path("skel.css") %>'/>
+        <link rel="stylesheet" href='<%= asset_path("style.css") %>'/>
+        <link rel="stylesheet" href='<%= asset_path("style-desktop.css") %>'/>
+    </noscript>
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/ie/v8.css"/><![endif]-->
+    <link rel="icon" type="image/bmp" href='<%= asset_path("favicon.ico") %>'/>
+    <link rel="shortcut icon" type="image/bmp" href='<%= asset_path("favicon.ico") %>'/>
+    <script type="text/javascript">
+        <!--
+        function toggle_visibility(id) {
+            var e = document.getElementById(id);
+            if (e.style.display == 'block')
+                e.style.display = 'none';
+            else
+                e.style.display = 'block';
+        }
+        function set_visible(id) {
+            var e = document.getElementById(id)
+            e.style.display = 'block';
+        }
+        //-->
+    </script>
+    <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="homepage">
+
+    <!-- Header -->
+    <div id="header-wrapper">
+        <div id="header" class="container">
+
+            <!-- Logo -->
+            <h1 id="logo"><a href="#">ISITIX</a></h1>
+
+            <p><strong>Cabinet de conseil IT indépendant</strong></p>
+            <!-- Nav -->
+            <%= render partial: 'menus/menus', locals: {top_menus: @menus} %>
+        </div>
+    </div>
+
+    <%= yield %>
+    <!-- Banner -->
+    <div id="banner-wrapper">
+        <div class="inner">
+            <section id="banner" class="container">
+                <p>Nous vous conseillons avec pragmatisme en toute indépendance.</p>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <!--<div id="footer-wrapper">-->
+    <div id="copyright" class="container">
+        <ul class="links">
+            <li>&copy; ISITIX. Tous droits réservés.</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,45 +1,12 @@
-<div class="homepage">
-
-    <!-- Header -->
-    <div id="header-wrapper">
-        <div id="header" class="container">
-
-            <!-- Logo -->
-            <h1 id="logo"><a href="#">ISITIX</a></h1>
-
-            <p><strong>Cabinet de conseil IT indépendant</strong></p>
-            <!-- Nav -->
-            <%= render partial: 'menus/menus', locals: {top_menus: @menus} %>
-        </div>
-    </div>
-    <!-- Features -->
-    <div id="features-wrapper">
-        <section id="features" class="container">
-            <header>
-                <h2>Une équipe de consultants seniors qui vous apporte une
-                    forte plus-value dans vos projets
-                </h2>
-            </header>
-            <%= render partial: 'articles/horizontalshort', locals: {articles: @articles} %>
-        </section>
-    </div>
-
-    <!-- Banner -->
-    <div id="banner-wrapper">
-        <div class="inner">
-            <section id="banner" class="container">
-                <p>Nous vous conseillons avec pragmatisme en toute indépendance.</p>
-            </section>
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <!--<div id="footer-wrapper">-->
-    <div id="copyright" class="container">
-        <ul class="links">
-            <li>&copy; ISITIX. Tous droits réservés.</li>
-            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-        </ul>
-    </div>
-    <!--</div>-->
+<!-- Features -->
+<div id="features-wrapper">
+    <section id="features" class="container">
+        <header>
+            <h2>Une équipe de consultants seniors qui vous apporte une
+                forte plus-value dans vos projets
+            </h2>
+        </header>
+        <%= render partial: 'articles/horizontalshort', locals: {articles: @articles} %>
+    </section>
 </div>
+
