@@ -11,6 +11,8 @@ class ArticlesController < ApplicationController
   # GET /articles/1.json
   def show
     @contact = Contact.new
+    @menus = Menu.where(level: 1)
+    @articles = Article.all
   end
 
   # GET /articles/new
