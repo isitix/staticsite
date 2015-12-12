@@ -1,13 +1,12 @@
 <div class="4u">
     <section>
-        <a href="#" class="image featured"><%= image_tag(article.small_picture) %></a>
+        <%= link_to image_tag(article.small_picture), article, class: "image featured" %>
         <header>
             <h3><%= article.title %></h3>
         </header>
         <p>
         <%= article.small_content %>
         </p>
-        <a href="#"
-           class="button icon fa-plus-circle">Lire la suite...</a>
+        <%= link_to 'Lire la suite...', article, class: "button icon fa-plus-circle" %>
     </section>
 </div>
