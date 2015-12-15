@@ -1,15 +1,15 @@
 <nav id="nav">
     <ul>
         <% top_menus.each do |menu| %>
-            <li><a class="<%= menu.icon %>" href="#"><span><%= menu.name %></span></a>
+            <li><%= link_to ("<span>" + menu.name + "</span>").html_safe, menu.article, class: menu.icon %>
                 <% if menu.menus.count > 0 %>
                     <ul>
                         <% menu.menus.each do |menu2| %>
-                            <li><a href="#"><%= menu2.name %></a></li>
+                            <li><%= link_to menu2.name, menu.article %></li>
                             <% if menu2.menus.count > 0 %>
                                 <ul>
                                     <% menu2.menus.each do |menu3| %>
-                                        <li><a href="#"><%= menu3.name %></a></li>
+                                        <li><%= link_to menu3.name, menu.article %></li>
                                     <% end %>
                                 </ul>
                             <% end %>
