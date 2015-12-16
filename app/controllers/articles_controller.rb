@@ -11,8 +11,8 @@ class ArticlesController < ApplicationController
   # GET /articles/1.json
   def show
     @contact = Contact.new
-    @menus = Menu.where(level: 1)
-    @articles = Article.all
+    @toparticles = Article.where(article_id: 0, visibility: true).order(priority: :asc)
+    @articles = Article.where(visibility: true).order(priority: :asc)
   end
 
   # GET /articles/new

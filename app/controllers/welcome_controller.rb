@@ -1,7 +1,6 @@
 class WelcomeController < ApplicationController
   def index
     @contact = Contact.new
-    @menus = Menu.where(level: 1)
-    @articles = Article.all
+    @toparticles = Article.where(article_id: 0, visibility: true).order(priority: :asc)
   end
 end
