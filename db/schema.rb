@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151118135318) do
+ActiveRecord::Schema.define(version: 20151216090629) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,9 +22,14 @@ ActiveRecord::Schema.define(version: 20151118135318) do
     t.string   "keywords"
     t.text     "small_content"
     t.text     "big_content"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.string   "first_picture"
+    t.integer "article_id", default: 0
+    t.integer "priority", default: 1
+    t.boolean "visibility", default: true
+    t.string "icon"
+    t.integer "article_id_id"
   end
 
   create_table "contacts", force: :cascade do |t|
@@ -37,7 +42,7 @@ ActiveRecord::Schema.define(version: 20151118135318) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "topmenus", force: :cascade do |t|
+  create_table "menus", force: :cascade do |t|
     t.integer  "article_id"
     t.integer  "menu_id"
     t.string   "name"
