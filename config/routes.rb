@@ -1,12 +1,7 @@
 Rails.application.routes.draw do
-
-  resources :articles
-
   # limitation des acces en lecture/ecriture a contacts et articles
   resources :contacts, :only => [:new, :create]
   resources :articles, :only => [:show, :index]
-  resources :menus, :only => [:show, :index]
-  get '/topmenus', to: 'menus#topmenus'
 
   get '/contacts', to: 'welcome#index'
   get 'welcome/index'
