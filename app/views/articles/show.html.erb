@@ -13,12 +13,11 @@
                     </header>
                     <span class="image featured"><%= image_tag(@article.first_picture) %></span>
                     <%= @article.big_content.html_safe %>
-                    <% @article.articles.each do |article2| %>
+                    <% @article.articles.select { |a| a[:visibility] }.each do |article2| %>
                         <h3><%= article2.title %></h3>
-                        <span class="image featured"><%= image_tag(article2.first_picture) %></span>
                         <%= article2.big_content.html_safe %>
                         <% if article2.articles.count > 0 %>
-                            <%= article2.articles.each do |article3| %>
+                            <% article2.articles.select { |a| a[:visibility] }.each do |article3| %>
                                 <h4><%= article3.title %></h4>
                                 <%= article3.big_content.html_safe %>
                             <% end %>

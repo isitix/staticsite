@@ -43,17 +43,6 @@ et d'infrastructure big data"
   s.article_id = 23
 end
 Article.seed do |s|
-  s.id = 27
-  s.title = "Stockage et sauvegarde"
-  s.small_picture = 'expertise_small.jpg'
-  s.first_picture = 'expertise_first.jpg'
-  s.small_content = "Nous disposons d'une très forte expertise sur les problématiques de sauvegarde, de stockage
-et d'infrastructure big data"
-  s.big_content = ''
-  s.priority = 4
-  s.article_id = 23
-end
-Article.seed do |s|
   s.id = 28
   s.title = "LAN datacenter"
   s.small_picture = 'expertise_small.jpg'
@@ -62,7 +51,7 @@ Article.seed do |s|
 et d'infrastructure big data"
   s.big_content = ''
   s.priority = 5
-  s.article_id = 24
+  s.article_id = 23
 end
 Article.seed do |s|
   s.id = 29
@@ -73,8 +62,19 @@ Article.seed do |s|
 et d'infrastructure big data"
   s.big_content = ''
   s.priority = 6
-  s.article_id = 24
+  s.article_id = 23
 end
+Article.seed do |s|
+  s.id = 37
+  s.title = "Analyse des évèments"
+  s.small_picture = 'expertise_small.jpg'
+  s.first_picture = 'expertise_first.jpg'
+  s.small_content = "Analyse des évènements d'exploitation"
+  s.big_content = ''
+  s.priority = 7
+  s.article_id = 23
+end
+
 Article.seed do |s|
   s.id = 30
   s.title = "Communications unifiées"
@@ -83,8 +83,8 @@ Article.seed do |s|
   s.small_content = "Nous disposons d'une très forte expertise sur les problématiques de sauvegarde, de stockage
 et d'infrastructure big data"
   s.big_content = ''
-  s.priority = 7
-  s.article_id = 24
+  s.priority = 8
+  s.article_id = 23
 end
 Article.seed do |s|
   s.id = 30
@@ -94,6 +94,6 @@ Article.seed do |s|
   s.small_content = "Nous disposons d'une très forte expertise sur les problématiques de sauvegarde, de stockage
 et d'infrastructure big data"
   s.big_content = ''
-  s.priority = 8
-  s.article_id = 24
+  s.priority = 9
+  s.article_id = 23
 end

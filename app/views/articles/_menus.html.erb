@@ -4,15 +4,16 @@
             <li><%= link_to ("<span>" + article.title + "</span>").html_safe, article, class: article.icon %>
                 <% if article.articles.count > 0 %>
                     <ul>
-                        <% article.articles.each do |article2| %>
-                            <li><%= link_to article2.title, article2 %></li>
+                        <% article.articles.select { |a| a[:visibility] }.each do |article2| %>
+                            <li><%= link_to article2.title, article2 %>
                             <% if article2.articles.count > 0 %>
                                 <ul>
-                                    <% article2.articles.each do |article3| %>
+                                    <% article2.articles.select { |a| a[:visibility] }.each do |article3| %>
                                         <li><%= link_to article3.title, article3 %></li>
                                     <% end %>
                                 </ul>
                             <% end %>
+                            </li>
                         <% end %>
                     </ul>
                 <% end %>

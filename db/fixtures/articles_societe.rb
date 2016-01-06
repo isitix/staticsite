@@ -10,6 +10,7 @@ Nos interventions couvrent l’ensemble des systèmes et logiciels entre la couc
 applicative du SI."
   s.icon = 'icon fa-home'
   s.priority = 1
+  s.visibility = true
 end
 Article.seed do |s|
   s.id = 2
@@ -95,7 +96,7 @@ Article.seed do |s|
 <ul>
 <li>AMOA pour la définition d’une offre
 de service Cloud
-<ul>
+<ul class='l1'>
 <li>Catalogue de services</li>
 <li>Principes d’architecture</li>
 <li>Cahier des charges</li></ul></li>
