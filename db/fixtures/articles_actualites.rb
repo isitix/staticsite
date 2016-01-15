@@ -60,13 +60,13 @@ type de situation, et ce type de solution s’inscrit dans la tendance actuelle 
 ou « Software Defined Storage » où la plus-value se situe dans une infrastructure entièrement reconfigurable - si possible
 automatiquement - en fonction des besoins avec des briques matérielles sous-jacentes banalisées.</p>
 <p>Il reste encore beaucoup d’étapes à franchir pour pérenniser ces architectures.</p>
-<h4>Un avenir qui passe par l'open source et la standardisation?</h4>
+<h4>Un avenir qui passe par l'open source et la standardisation ?</h4>
 <p>Quatre domaines nous semblent intéressants à surveiller et à expérimenter:
 <ul>
 <li>L'émergence progressive d'un standard de gestion des ressources et des services du datacenter autour des solutions OpenSource
 type OpenStack</li>
 <li>Les efforts de standardisation des technologies SDN comme OpenFlow</li>
-<li>Le développement des solutions de containerisation légère type docker ou hdfs</li>
+<li>Le développement des solutions de containerisation légères type docker ou hdfs</li>
 <li>Et enfin la capacité à intégrer l'ensemble de ces initiatives dans une vision globale d'exploitation
 des ressources disponibles, notamment des multipes solutions de cloud, du legacy et des nouveaux systèmes
 hyperconvergés ou pas</li>
