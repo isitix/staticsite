@@ -18,10 +18,20 @@ Article.seed do |s|
   s.small_picture = 'equipe_small.jpg'
   s.first_picture = 'equipe_first.jpg'
   s.small_content = "Notre équipe réunit des consultants ayant accumulé expérience et expertise en mêlant
-les postes opérationnels et les missions de consultants..."
+les postes opérationnels et les missions de consultants."
   s.big_content = "<p>Notre équipe est constituée à 100% d’indépendants.</p>
-<p>Nous réunissons des profils rares en termes  de séniorité, d’expertise, et d’expérience opérationnelle.</p>
-<p>Nos consultants savent à la fois analyser les aspects les plus techniques de votre projet
+<p><a href='mailto:mickael.dautrey@isitix.com'>Mikaël Dautrey</a> (X-Telecom master en mathématiques appliquées, associé gérant)
+assure le suivi commercial et contractuel des clients, ainsi que l'expertise en gestion de projet,
+gestion des données (base de données, big data, business intelligence), en organisation et en sécurité.</p>
+<p>
+Alan Guillais (master en mathématiques, consultant indépendant)
+apporte son expertise sur les serveurs, la virtualisation, le stockage et
+sa gestion (optimisation, performance, sauvegarde), les LAN datacenter, et l'organisation de la disponibilité
+et de la continuité (PRI/PCI)</p>
+<p>Véronique de Beaufort (master en mathématiques pures, associée) apporte un regard extérieur sur la gestion de l'activité et les
+finances</p>
+<p>Nous réunissons des profils rares en termes  de séniorité, d’expertise, et d’expérience opérationnelle, qui peuvent
+à la fois analyser les aspects les plus techniques de votre projet
 et tenir compte des objectifs et contraintes de la  DSI et de  la Direction Générale.</p>
 "
   s.priority = 1
@@ -50,7 +60,9 @@ Nous avons participé au démarrage de 2 sociétés, qui représentent chacune u
 de chiffre d’affaires. Les mid-cap détenus par des investisseurs et des sociétés privées avec des taux de croissance
 élevés constituent encore aujourd’hui une part importante de notre portefeuille de clients.</p>
 <p>
-Le renforcement de l’équipe par des compétences dans le domaine serveur/stockage/virtualisation en 2014 et une montée en compétence dans le domaine du Big Data nous ont conduits à repackager notre offre pour proposer un service cohérente et innovant à nos clients dans le domaine des infrastructures et des projets innovants, cloud et big data.
+Le renforcement de l’équipe par des compétences dans le domaine serveur/stockage/virtualisation en 2014 et une montée
+en compétence dans le domaine du Big Data nous ont conduits à repackager notre offre pour proposer un service cohérente
+et innovant à nos clients dans le domaine des infrastructures et des projets innovants, cloud et big data.
 </p>
 '
   s.priority = 2
@@ -106,6 +118,7 @@ de service Cloud
 <li>Intégration Data Domain (certifié)</li>
 <li>Intégration d’un proxy parefeu</li>
 <li>Définition et implémentation d’un plan de sauvegarde SI</li>
+<li>Intégration grid Avamar (certifié)</li>
 </ul></p>
 "
   s.priority = 5

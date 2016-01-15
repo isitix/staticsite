@@ -1,6 +1,6 @@
 <section>
     <ul class="divided">
-        <% articles.first(3).each do |article| %>
+        <% articles.sample(3).each do |article| %>
             <li>
                 <!-- Excerpt -->
                 <%= render partial: 'articles/excerpt', locals: {article: article} %>

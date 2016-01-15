@@ -20,7 +20,7 @@ des objectifs et contraintes de la  DSI et de  la Direction Générale.</p>
 <h3>Au-delà du profil des consultants, quels sont les éléments différentiant par rapport à la concurrence ?</h3>
 <p>Notre mode d’intervention, avec des équipes légères, focalisées, travaillant systématiquement de manière
 collaborative avec l’écosystème de nos clients.</p>
-<h3>Quels sont vos conditions d’intervention ?</h3>
+<h3>Quelles sont vos conditions d’intervention ?</h3>
 <p>Nous intervenons principalement au forfait, et occasionnellement en régie pour des clients avec
 qui nous avons développé une relation de confiance.</p>"
   s.priority = 6

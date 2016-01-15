@@ -369,6 +369,10 @@ form ::-moz-focus-inner {
 }
 
 /* Table */
+table.intext td {
+  padding: 0.5em;
+  vertical-align: top;
+}
 
 table {
   width: 100%;

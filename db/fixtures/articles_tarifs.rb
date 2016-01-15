@@ -6,6 +6,7 @@ Article.seed do |s|
   s.small_content = 'Une estimation du budget à prévoir en fonction de votre projet...'
   s.big_content = ''
   s.priority = 5
+  s.visibility = false
   s.icon = 'icon fa-eur'
 end
 Article.seed do |s|
@@ -15,6 +16,7 @@ Article.seed do |s|
   s.first_picture = 'tarifs_first.jpg'
   s.small_content = 'Une estimation du budget à prévoir en fonction de votre projet...'
   s.big_content = ''
+  s.visibility = false
   s.priority = 1
   s.article_id = 32
 end
@@ -25,6 +27,7 @@ Article.seed do |s|
   s.first_picture = 'tarifs_first.jpg'
   s.small_content = 'Une estimation du budget à prévoir en fonction de votre projet...'
   s.big_content = ''
+  s.visibility = false
   s.priority = 2
   s.article_id = 32
 end
@@ -35,6 +38,7 @@ Article.seed do |s|
   s.first_picture = 'tarifs_first.jpg'
   s.small_content = 'Une estimation du budget à prévoir en fonction de votre projet...'
   s.big_content = ''
+  s.visibility = false
   s.priority = 3
   s.article_id = 32
 end
