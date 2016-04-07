@@ -13,7 +13,6 @@
     <script src='<%= asset_path("skel.min.js") %>'></script>
     <script src='<%= asset_path("skel-layers.min.js") %>'></script>
     <script src='<%= asset_path("init.js.erb") %>'></script>
-  <script src='<%= asset_path("visibility.js") %>'></script>
   <noscript>
         <link rel="stylesheet" href='<%= asset_path("skel.css") %>'/>
         <link rel="stylesheet" href='<%= asset_path("style.css") %>'/>
@@ -46,7 +45,7 @@
             <strong>
                 <% if flash[:notice] %><%= flash[:notice] %>
                 <% else %>
-                    <a href="#" onclick="toggle_visibility('contactform');" class="icon fa-envelope"> Nous
+                  <a id="contactbutton" href="#" class="icon fa-envelope"> Nous
                         contacter (click here)</a></strong>
                 <% end %>
                 </header>
