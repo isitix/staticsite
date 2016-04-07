@@ -13,7 +13,9 @@
     <script src='<%= asset_path("skel.min.js") %>'></script>
     <script src='<%= asset_path("skel-layers.min.js") %>'></script>
     <script src='<%= asset_path("init.js.erb") %>'></script>
-    <noscript>
+  <script src='<%= asset_path("visibility.js") %>'></script>
+
+  <noscript>
         <link rel="stylesheet" href='<%= asset_path("skel.css") %>'/>
         <link rel="stylesheet" href='<%= asset_path("style.css") %>'/>
         <link rel="stylesheet" href='<%= asset_path("style-desktop.css") %>'/>
@@ -22,21 +24,6 @@
     <link rel="stylesheet" href="css/ie/v8.css"/><![endif]-->
     <link rel="icon" type="image/bmp" href='<%= asset_path("favicon.ico") %>'/>
     <link rel="shortcut icon" type="image/bmp" href='<%= asset_path("favicon.ico") %>'/>
-    <script type="text/javascript">
-        <!--
-        function toggle_visibility(id) {
-            var e = document.getElementById(id);
-            if (e.style.display == 'block')
-                e.style.display = 'none';
-            else
-                e.style.display = 'block';
-        }
-        function set_visible(id) {
-            var e = document.getElementById(id)
-            e.style.display = 'block';
-        }
-        //-->
-    </script>
     <%= csrf_meta_tags %>
 </head>
 <body>
