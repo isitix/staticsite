@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 20151216131748) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "articles", force: :cascade do |t|
+  create_table "articles", force: true do |t|
     t.string   "title"
     t.string   "small_picture"
     t.string   "keywords"
@@ -32,7 +32,7 @@ ActiveRecord::Schema.define(version: 20151216131748) do
     t.integer "article_id_id"
   end
 
-  create_table "contacts", force: :cascade do |t|
+  create_table "contacts", force: true do |t|
     t.string   "name"
     t.string   "company"
     t.string   "phone"

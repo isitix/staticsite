@@ -24,7 +24,7 @@ les postes opérationnels et les missions de consultants."
 assure le suivi commercial et contractuel des clients, ainsi que l'expertise en gestion de projet,
 gestion des données (base de données, big data, business intelligence), en organisation et en sécurité.</p>
 <p>
-Alan Guillais (master en mathématiques, consultant indépendant)
+Une équipe de consultants indépendants et de partenaires
 apporte son expertise sur les serveurs, la virtualisation, le stockage et
 sa gestion (optimisation, performance, sauvegarde), les LAN datacenter, et l'organisation de la disponibilité
 et de la continuité (PRI/PCI)</p>

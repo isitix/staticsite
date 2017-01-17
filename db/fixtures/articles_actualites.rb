@@ -1,6 +1,6 @@
 Article.seed do |s|
   s.id = 31
-  s.title = 'Actualités'
+  s.title = 'Articles'
   s.small_picture = 'actualites_small.jpg'
   s.first_picture = 'actualites_first.jpg'
   s.small_content = "Big data, cloud, évolution des offres, quelques mots sur l'actualité"
