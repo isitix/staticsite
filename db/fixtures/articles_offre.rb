@@ -72,22 +72,22 @@ partenariats avec des fournisseurs de technologie"
   s.big_content = "<p>Nous sommes partenaires :</p>
 <p>
 <table class='intext'>
-<tr><td><img src='/assets/opensource.jpg' width='150em' alt='OPENSOURCE'/></td><td><p>
+<tr><td><a href='https://www.apache.org'><img src='/assets/opensource.jpg' width='150em' alt='OPENSOURCE'/></a></td><td><p>
 L'Opensource, en tant que modèle de divulgation rapide de l'innovation logicielle, a contribué à l'évolution
 très rapide des technologies de l'information en facilitant la divulgation des nouvelles idées et leur appropriation
 par les développeurs et les utilisateurs. Nous soutenons et nous participons à ce mouvement, à la fois en tant
 que bénéficiaire des technologies open source, et dans la diffusion de nos réalisations.</p></td>
 </tr>
-<tr><td><img src='/assets/couchbase.png' width='150em' alt='COUCHBASE'/></td><td><p>Nous investissons beaucoup en compétence sur la base de données Couchbase. Elle couvre l'ensemble de nos besoins en stockage NoSQL : performance, scalabilité, architecture distribuée,
+<tr><td><a href='https://www.couchbase.com'><img src='/assets/couchbase.png' width='150em' alt='COUCHBASE'/></a></td><td><p>Nous investissons beaucoup en compétence sur la base de données Couchbase. Elle couvre l'ensemble de nos besoins en stockage NoSQL : performance, scalabilité, architecture distribuée,
 simplicité d'utilisation et extension vers les mobiles.</p><p>Couchbase est issue de la fusion de deux technologies, la technologie de base colonne CouchDB et la technologie de base en mémoire MemCache.
 Elle peut par exemple être configurée pour de l'accès rapide en mode row, le stockage de données en flux ou des architectures distribuée multi-sites ou multi-supports.</p>
 </td>
 </tr>
-<tr><td><img src='/assets/datalearning.jpg' width='150em' alt='HORTONWORKS'/></td><td><p>Datalearning nous apporte son support sur la dimension métier dans les projets de gestion de données, notamment
+<tr><td><a href='http://www.datalearning.eu'><img src='/assets/datalearning.jpg' width='150em' alt='HORTONWORKS'/></a></td><td><p>Datalearning nous apporte son support sur la dimension métier dans les projets de gestion de données, notamment
 pour l'implantation de modèles mathématiques et d'alogrithmes dans des usines de traitement de données.
 </p></td>
 </tr>
-<tr><td><img src='/assets/hw_logo_green_black.png' width='150em' alt='HORTONWORKS'/></td><td><p>
+<tr><td><a href='http://www.hortonworks.com'><img src='/assets/hw_logo_green_black.png' width='150em' alt='HORTONWORKS'/></a></td><td><p>
 Hortonworks est une société 100% open-source qui développe, distribue et supporte une version d'Apache Hadoop testée
 pour les déploiements en environnement de production.</p> <p>Fondée par des contributeurs principaux d'Hadoop,
 Hortonworks Data Platform est une distribution d'Hadoop certifiée, assemblée pour permettre des développements à grande échelle
@@ -96,7 +96,7 @@ télécharger Hortonworks Sandbox :
 <a href='http://www.hortonworks.com/sandbox'>www.hortonworks.com/sandbox</a>.</p>
 </td>
 </tr>
-<tr><td><img src='/assets/cisco_logo.png' width='120em' alt='CISCO'/></td><td><p>Nos compétences se concentrent sur certains équipements des gammes datacenter et sécurité
+<tr><td><a href='https://www.cisco.com'><img src='/assets/cisco_logo.png' width='120em' alt='CISCO'/></a></td><td><p>Nos compétences se concentrent sur certains équipements des gammes datacenter et sécurité
 qui répondent à des besoins spécifiques sur des projets en gestion de données. Nous consulter pour en savoir plus!</p>
 </td>
 </tr>
