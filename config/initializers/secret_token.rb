@@ -1,1 +1,1 @@
-Isitix::Application.config.secret_token = ENV['SECRET_TOKEN']
+Isitix::Application.config.secret_token = ENV['SECRET_KEY_BASE']
