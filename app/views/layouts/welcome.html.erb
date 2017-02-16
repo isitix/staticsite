@@ -7,13 +7,13 @@
     <meta name="keywords" content=""/>
     <!--[if lte IE 8]><script src='<%= asset_path("ie/html5shiv.js") %>'></script><![endif]-->
 
-    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <script src='<%= asset_path("jquery.min.js") %>'></script>
     <script src='<%= asset_path("jquery.dropotron.min.js") %>'></script>
     <script src='<%= asset_path("skel.min.js") %>'></script>
     <script src='<%= asset_path("skel-layers.min.js") %>'></script>
     <script src='<%= asset_path("init.js.erb") %>'></script>
-
+  <script src='<%= asset_path("google_analytics.js.coffee") %>'></script>
+  <script src='<%= asset_path("contactform.js.coffee") %>'></script>
   <noscript>
         <link rel="stylesheet" href='<%= asset_path("skel.css") %>'/>
         <link rel="stylesheet" href='<%= asset_path("style.css") %>'/>
