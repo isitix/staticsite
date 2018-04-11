@@ -1,0 +1,329 @@
+/*style-desktop.scss*/
+/*
+	Strongly Typed by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+/* line 13, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+body, input, textarea, select {
+  line-height: 1.5em;
+  font-size: 13pt;
+}
+
+/* line 19, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+h2 {
+  font-size: 2em;
+  font-weight: 400;
+  letter-spacing: 4px;
+  margin-top: 1.5em;
+  line-height: 2em;
+}
+
+/* line 28, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+h3 {
+  font-size: 1em;
+  letter-spacing: 2px;
+  margin-top: 1.25em;
+}
+
+/* Table */
+/* line 45, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+table.default thead {
+  font-size: 0.85em;
+  letter-spacing: 2px;
+}
+
+/* Button */
+/* line 53, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.button {
+  font-size: 0.85em;
+  letter-spacing: 2px;
+  padding: 0.85em 2.75em 0.85em 2.75em;
+}
+
+/* List */
+/* line 69, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+ul.actions li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+/* line 75, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+ul.actions li:first-child {
+  margin-left: 0;
+}
+
+/* line 84, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+ul.divided li {
+  margin: 2.5em 0 0 0;
+  padding: 2.5em 0 0 0;
+}
+
+/* Box */
+/* line 100, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+.no-sidebar .box.post > header {
+  text-align: center;
+}
+
+/* line 109, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+.box.excerpt .date {
+  display: inline-block;
+  font-size: 0.85em;
+  letter-spacing: 2px;
+  padding: 0.25em 1em 0.25em 1em;
+  margin: 0 0 2.5em 0;
+}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+/* line 126, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#features-wrapper {
+  padding: 1.5em 0 1.5em 0;
+}
+
+/* line 131, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#banner-wrapper {
+  padding: 2em 0 2em 0;
+}
+
+/* line 136, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#main-wrapper {
+  padding: 1em 0 1em 0;
+}
+
+/* line 141, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#footer-wrapper {
+  padding: 6em 0 8em 0;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+/* line 150, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#header {
+  padding: 7em 0 3em 0;
+}
+
+/* line 155, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#header h1 {
+  font-size: 3em;
+  letter-spacing: 13px;
+}
+
+/* line 161, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#header p {
+  margin: 1.5em 0 0 0;
+  font-size: 0.85em;
+  letter-spacing: 3px;
+}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+/* line 172, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#nav {
+  position: absolute;
+  top: 3em;
+  left: 0;
+  width: 100%;
+}
+
+/* line 180, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#nav > ul > li {
+  display: inline-block;
+  padding-right: 2em;
+}
+
+/* line 186, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#nav > ul > li:last-child {
+  padding-right: 0;
+}
+
+/* line 191, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#nav > ul > li > a {
+  display: block;
+}
+
+/* line 196, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#nav > ul > li > a > span {
+  font-size: 0.85em;
+  letter-spacing: 3px;
+}
+
+/* line 202, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#nav > ul > li > ul {
+  display: none;
+}
+
+/* line 207, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+.dropotron {
+  text-align: left;
+  border: solid 1px #e5e5e5;
+  border-radius: 4px;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.965);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  padding: 0.75em 0 0.5em 0;
+  min-width: 12em;
+  margin-top: -moz-calc(-0.5em + 1px);
+  margin-top: -webkit-calc(-0.5em + 1px);
+  margin-top: -o-calc(-0.5em + 1px);
+  margin-top: -ms-calc(-0.5em + 1px);
+  margin-top: calc(-0.5em + 1px);
+  margin-left: -2px;
+}
+
+/* line 225, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+.dropotron.level-0 {
+  margin-top: 1.5em;
+  margin-left: -1em;
+}
+
+/* line 231, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+.dropotron.level-0:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 1.25em;
+  top: -moz-calc(-0.75em + 1px);
+  top: -webkit-calc(-0.75em + 1px);
+  top: -o-calc(-0.75em + 1px);
+  top: -ms-calc(-0.75em + 1px);
+  top: calc(-0.75em + 1px);
+  border-left: solid 0.75em rgba(255, 255, 255, 0);
+  border-right: solid 0.75em rgba(255, 255, 255, 0);
+  border-bottom: solid 0.75em #fff;
+}
+
+/* line 247, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+.dropotron.level-0:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 1.25em;
+  top: -0.75em;
+  border-left: solid 0.75em rgba(255, 255, 255, 0);
+  border-right: solid 0.75em rgba(255, 255, 255, 0);
+  border-bottom: solid 0.75em #ccc;
+}
+
+/* line 259, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+.dropotron span,
+.dropotron a {
+  display: block;
+  padding: 0.3em 1em 0.3em 1em;
+  border: 0;
+  border-top: solid 1px #f0f0f0;
+  outline: 0;
+}
+
+/* line 269, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+.dropotron li:first-child > span,
+.dropotron li:first-child > a {
+  border-top: 0;
+  padding-top: 0;
+}
+
+/* line 276, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+.dropotron li:hover > span,
+.dropotron li:hover > a {
+  color: #ed786a;
+  -moz-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+  -o-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+  -ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+/* line 291, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#banner {
+  padding: 3em 0 3em 0;
+}
+
+/* line 296, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#banner p {
+  font-size: 1.3em;
+  line-height: 1.1em;
+  letter-spacing: 2px;
+}
+
+/* line 303, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#banner:before,
+#banner:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 35px;
+  height: 141px;
+  margin-top: -70px;
+  opacity: 0.15;
+}
+
+/* line 316, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#banner:before {
+  left: 0;
+}
+
+/* line 321, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#banner:after {
+  right: 0;
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+/* line 339, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#content > section,
+#content > article {
+  margin: 5em 0 0 0;
+  padding: 5em 0 0 0;
+}
+
+/* line 346, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#content > section:first-child,
+#content > article:first-child {
+  margin: 0;
+  padding: 0;
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+/* line 361, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#sidebar > section,
+#sidebar > article {
+  margin: 5em 0 0 0;
+  padding: 5em 0 0 0;
+}
+
+/* line 368, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#sidebar > section:first-child,
+#sidebar > article:first-child {
+  margin: 0;
+  padding: 0;
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+/* line 379, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#copyright {
+  margin-top: 1em;
+  padding-top: 1em;
+}

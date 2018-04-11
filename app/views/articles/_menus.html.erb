@@ -19,5 +19,8 @@
                 <% end %>
             </li>
         <% end %>
+      <li>
+        <%= link_to(t('language'), "#{request.env['REQUEST_URI'].split('?').first()}?locale=#{t('local')}", class: 'icon fa-globe') %>
+      </li>
     </ul>
 </nav>

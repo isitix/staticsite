@@ -1,0 +1,5491 @@
+/*
+	Strongly Typed by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+
+	form input[type="text"],
+	form input[type="email"],
+	form input[type="password"],
+	form select,
+	form textarea,
+	input[type="button"],
+	input[type="submit"],
+	input[type="reset"],
+	.button,
+	.box.excerpt .date
+	{
+		position: relative;
+		-ms-behavior: url('css/ie/PIE.htc');
+	}
+
+	/* Sections/Article */
+	
+		section,
+		article
+		{
+		}
+		
+			section > .last-child,
+			article > .last-child
+			{
+				margin-bottom: 0;
+			}
+
+			section.last-child,
+			article.last-child
+			{
+				margin-bottom: 0;
+			}
+			
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#banner-wrapper
+	{
+	}
+
+		#banner-wrapper .inner
+		{
+			-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		}
+/* line 1, /home/mdautrey/isitix/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /home/mdautrey/isitix/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /home/mdautrey/isitix/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /home/mdautrey/isitix/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 23, /home/mdautrey/isitix/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 26, /home/mdautrey/isitix/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 33, /home/mdautrey/isitix/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 38, /home/mdautrey/isitix/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 42, /home/mdautrey/isitix/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 48, /home/mdautrey/isitix/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 55, /home/mdautrey/isitix/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 65, /home/mdautrey/isitix/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/* skel.scss*/
+/* Resets (http://meyerweb.com/eric/tools/css/reset/ | v2.0 | 20110126 | License: none (public domain)) */
+/* line 5, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* line 5, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 5, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+body {
+  line-height: 1;
+}
+
+/* line 5, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 5, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 5, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 5, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 5, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+body {
+  -webkit-text-size-adjust: none;
+}
+
+/* Box Model */
+/* line 9, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Container */
+/* line 17, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  /* width: (containers) */
+  width: 1200px;
+}
+
+/* Modifiers */
+/* 125% */
+/* line 28, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.container.\31 25\25 {
+  width: 100%;
+  /* max-width: (containers * 1.25) */
+  max-width: 1500px;
+  /* min-width: (containers) */
+  min-width: 1200px;
+}
+
+/* 75% */
+/* line 39, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.container.\37 5\25 {
+  /* width: (containers * 0.75) */
+  width: 900px;
+}
+
+/* 50% */
+/* line 47, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.container.\35 0\25 {
+  /* width: (containers * 0.50) */
+  width: 600px;
+}
+
+/* 25% */
+/* line 55, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.container.\32 5\25 {
+  /* width: (containers * 0.25) */
+  width: 300px;
+}
+
+/* Grid */
+/* line 64, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row {
+  border-bottom: solid 1px transparent;
+}
+
+/* line 68, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row > * {
+  float: left;
+}
+
+/* line 72, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row:after, .row:before {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+/* line 79, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.uniform > * > :first-child {
+  margin-top: 0;
+}
+
+/* line 83, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.uniform > * > :last-child {
+  margin-bottom: 0;
+}
+
+/* Gutters */
+/* Normal */
+/* line 91, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row > * {
+  /* padding: (gutters.horizontal) 0 0 (gutters.vertical) */
+  padding: 40px 0 0 40px;
+}
+
+/* line 96, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row {
+  /* margin: -(gutters.horizontal) 0 -1px -(gutters.vertical) */
+  margin: -40px 0 -1px -40px;
+}
+
+/* line 101, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.uniform > * {
+  /* padding: (gutters.vertical) 0 0 (gutters.vertical) */
+  padding: 40px 0 0 40px;
+}
+
+/* line 106, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.uniform {
+  /* margin: -(gutters.vertical) 0 -1px -(gutters.vertical) */
+  margin: -40px 0 -1px -40px;
+}
+
+/* 200% */
+/* line 113, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.\32 00\25  > * {
+  /* padding: (gutters.horizontal) 0 0 (gutters.vertical) */
+  padding: 80px 0 0 80px;
+}
+
+/* line 118, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.\32 00\25 {
+  /* margin: -(gutters.horizontal) 0 -1px -(gutters.vertical) */
+  margin: -80px 0 -1px -80px;
+}
+
+/* line 123, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.uniform.\32 00\25  > * {
+  /* padding: (gutters.vertical) 0 0 (gutters.vertical) */
+  padding: 80px 0 0 80px;
+}
+
+/* line 128, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.uniform.\32 00\25 {
+  /* margin: -(gutters.vertical) 0 -1px -(gutters.vertical) */
+  margin: -80px 0 -1px -80px;
+}
+
+/* 150% */
+/* line 135, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.\31 50\25  > * {
+  /* padding: (gutters.horizontal) 0 0 (gutters.vertical) */
+  padding: 60px 0 0 60px;
+}
+
+/* line 140, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.\31 50\25 {
+  /* margin: -(gutters.horizontal) 0 -1px -(gutters.vertical) */
+  margin: -60px 0 -1px -60px;
+}
+
+/* line 145, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.uniform.\31 50\25  > * {
+  /* padding: (gutters.vertical) 0 0 (gutters.vertical) */
+  padding: 60px 0 0 60px;
+}
+
+/* line 150, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.uniform.\31 50\25 {
+  /* margin: -(gutters.vertical) 0 -1px -(gutters.vertical) */
+  margin: -60px 0 -1px -60px;
+}
+
+/* 50% */
+/* line 157, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.\35 0\25  > * {
+  /* padding: (gutters.horizontal) 0 0 (gutters.vertical) */
+  padding: 20px 0 0 20px;
+}
+
+/* line 162, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.\35 0\25 {
+  /* margin: -(gutters.horizontal) 0 -1px -(gutters.vertical) */
+  margin: -20px 0 -1px -20px;
+}
+
+/* line 167, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.uniform.\35 0\25  > * {
+  /* padding: (gutters.vertical) 0 0 (gutters.vertical) */
+  padding: 20px 0 0 20px;
+}
+
+/* line 172, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.uniform.\35 0\25 {
+  /* margin: -(gutters.vertical) 0 -1px -(gutters.vertical) */
+  margin: -20px 0 -1px -20px;
+}
+
+/* 25% */
+/* line 179, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.\32 5\25  > * {
+  /* padding: (gutters.horizontal) 0 0 (gutters.vertical) */
+  padding: 10px 0 0 10px;
+}
+
+/* line 184, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.\32 5\25 {
+  /* margin: -(gutters.horizontal) 0 -1px -(gutters.vertical) */
+  margin: -10px 0 -1px -10px;
+}
+
+/* line 189, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.uniform.\32 5\25  > * {
+  /* padding: (gutters.vertical) 0 0 (gutters.vertical) */
+  padding: 10px 0 0 10px;
+}
+
+/* line 194, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.uniform.\32 5\25 {
+  /* margin: -(gutters.vertical) 0 -1px -(gutters.vertical) */
+  margin: -10px 0 -1px -10px;
+}
+
+/* 0% */
+/* line 201, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.\30 \25  > * {
+  padding: 0;
+}
+
+/* line 205, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.row.\30 \25 {
+  margin: 0 0 -1px 0;
+}
+
+/* Cells */
+/* line 211, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\31 2u, .\31 2u\24 {
+  width: 100%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 212, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\31 1u, .\31 1u\24 {
+  width: 91.6666666667%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 213, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\31 0u, .\31 0u\24 {
+  width: 83.3333333333%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 214, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\39 u, .\39 u\24 {
+  width: 75%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 215, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\38 u, .\38 u\24 {
+  width: 66.6666666667%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 216, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\37 u, .\37 u\24 {
+  width: 58.3333333333%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 217, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\36 u, .\36 u\24 {
+  width: 50%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 218, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\35 u, .\35 u\24 {
+  width: 41.6666666667%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 219, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\34 u, .\34 u\24 {
+  width: 33.3333333333%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 220, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\33 u, .\33 u\24 {
+  width: 25%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 221, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\32 u, .\32 u\24 {
+  width: 16.6666666667%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 222, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\31 u, .\31 u\24 {
+  width: 8.3333333333%;
+  clear: none;
+  margin-left: 0;
+}
+
+/* line 224, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\31 2u\24  + *,
+.\31 1u\24  + *,
+.\31 0u\24  + *,
+.\39 u\24  + *,
+.\38 u\24  + *,
+.\37 u\24  + *,
+.\36 u\24  + *,
+.\35 u\24  + *,
+.\34 u\24  + *,
+.\33 u\24  + *,
+.\32 u\24  + *,
+.\31 u\24  + * {
+  clear: left;
+}
+
+/* line 239, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\-11u {
+  margin-left: 91.66667%;
+}
+
+/* line 240, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\-10u {
+  margin-left: 83.33333%;
+}
+
+/* line 241, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\-9u {
+  margin-left: 75%;
+}
+
+/* line 242, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\-8u {
+  margin-left: 66.66667%;
+}
+
+/* line 243, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\-7u {
+  margin-left: 58.33333%;
+}
+
+/* line 244, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\-6u {
+  margin-left: 50%;
+}
+
+/* line 245, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\-5u {
+  margin-left: 41.66667%;
+}
+
+/* line 246, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\-4u {
+  margin-left: 33.33333%;
+}
+
+/* line 247, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\-3u {
+  margin-left: 25%;
+}
+
+/* line 248, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\-2u {
+  margin-left: 16.66667%;
+}
+
+/* line 249, /home/mdautrey/isitix/app/assets/stylesheets/skel.scss */
+.\-1u {
+  margin-left: 8.33333%;
+}
+/*style-1000px.scss*/
+/*
+	Strongly Typed by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+/* line 13, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+body {
+  min-width: 960px;
+}
+
+/* line 17, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+body, input, textarea, select {
+  line-height: 1.5em;
+  /* 1.75 */
+  font-size: 12pt;
+}
+
+/* line 22, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+h2 {
+  margin-top: 1em;
+  font-size: 2em;
+}
+
+/* line 27, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+h3 {
+  margin-top: 1em;
+}
+
+/* line 31, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+h2 br, h3 br, h4 br, h5 br, h6 br {
+  display: none;
+}
+
+/* Image */
+/* line 40, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+.image.featured {
+  margin: 0 0 1.5em 0;
+}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+/* line 51, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#features-wrapper {
+  padding: 3em 0 3em 0;
+}
+
+/* line 55, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#banner-wrapper {
+  padding: 2em 0 2em 0;
+}
+
+/* line 59, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#main-wrapper {
+  padding: 1em 0 4em 0;
+}
+
+/* line 63, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#footer-wrapper {
+  padding: 3em 0 6em 0;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+/* line 71, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#header {
+  padding: 7em 0 3em 0;
+}
+
+/* line 75, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#header h1 {
+  font-size: 2em;
+}
+
+/* line 79, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#header p {
+  margin-bottom: 1em;
+}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+/* line 90, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#nav > ul > li {
+  padding-right: 1.25em;
+}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+/* line 98, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#banner {
+  padding: 2em 0 2em 0;
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+/* line 106, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#copyright {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+/*style-desktop.scss*/
+/*
+	Strongly Typed by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+/* line 13, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+body, input, textarea, select {
+  line-height: 1.5em;
+  font-size: 13pt;
+}
+
+/* line 19, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+h2 {
+  font-size: 2em;
+  font-weight: 400;
+  letter-spacing: 4px;
+  margin-top: 1.5em;
+  line-height: 2em;
+}
+
+/* line 28, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+h3 {
+  font-size: 1em;
+  letter-spacing: 2px;
+  margin-top: 1.25em;
+}
+
+/* Table */
+/* line 45, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+table.default thead {
+  font-size: 0.85em;
+  letter-spacing: 2px;
+}
+
+/* Button */
+/* line 53, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.button {
+  font-size: 0.85em;
+  letter-spacing: 2px;
+  padding: 0.85em 2.75em 0.85em 2.75em;
+}
+
+/* List */
+/* line 69, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+ul.actions li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+/* line 75, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+ul.actions li:first-child {
+  margin-left: 0;
+}
+
+/* line 84, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+ul.divided li {
+  margin: 2.5em 0 0 0;
+  padding: 2.5em 0 0 0;
+}
+
+/* Box */
+/* line 100, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+.no-sidebar .box.post > header {
+  text-align: center;
+}
+
+/* line 109, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+.box.excerpt .date {
+  display: inline-block;
+  font-size: 0.85em;
+  letter-spacing: 2px;
+  padding: 0.25em 1em 0.25em 1em;
+  margin: 0 0 2.5em 0;
+}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+/* line 126, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#features-wrapper {
+  padding: 1.5em 0 1.5em 0;
+}
+
+/* line 131, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#banner-wrapper {
+  padding: 2em 0 2em 0;
+}
+
+/* line 136, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#main-wrapper {
+  padding: 1em 0 1em 0;
+}
+
+/* line 141, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#footer-wrapper {
+  padding: 6em 0 8em 0;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+/* line 150, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#header {
+  padding: 7em 0 3em 0;
+}
+
+/* line 155, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#header h1 {
+  font-size: 3em;
+  letter-spacing: 13px;
+}
+
+/* line 161, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#header p {
+  margin: 1.5em 0 0 0;
+  font-size: 0.85em;
+  letter-spacing: 3px;
+}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+/* line 172, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#nav {
+  position: absolute;
+  top: 3em;
+  left: 0;
+  width: 100%;
+}
+
+/* line 180, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#nav > ul > li {
+  display: inline-block;
+  padding-right: 2em;
+}
+
+/* line 186, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#nav > ul > li:last-child {
+  padding-right: 0;
+}
+
+/* line 191, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#nav > ul > li > a {
+  display: block;
+}
+
+/* line 196, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#nav > ul > li > a > span {
+  font-size: 0.85em;
+  letter-spacing: 3px;
+}
+
+/* line 202, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#nav > ul > li > ul {
+  display: none;
+}
+
+/* line 207, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+.dropotron {
+  text-align: left;
+  border: solid 1px #e5e5e5;
+  border-radius: 4px;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.965);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+  padding: 0.75em 0 0.5em 0;
+  min-width: 12em;
+  margin-top: -moz-calc(-0.5em + 1px);
+  margin-top: -webkit-calc(-0.5em + 1px);
+  margin-top: -o-calc(-0.5em + 1px);
+  margin-top: -ms-calc(-0.5em + 1px);
+  margin-top: calc(-0.5em + 1px);
+  margin-left: -2px;
+}
+
+/* line 225, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+.dropotron.level-0 {
+  margin-top: 1.5em;
+  margin-left: -1em;
+}
+
+/* line 231, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+.dropotron.level-0:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 1.25em;
+  top: -moz-calc(-0.75em + 1px);
+  top: -webkit-calc(-0.75em + 1px);
+  top: -o-calc(-0.75em + 1px);
+  top: -ms-calc(-0.75em + 1px);
+  top: calc(-0.75em + 1px);
+  border-left: solid 0.75em rgba(255, 255, 255, 0);
+  border-right: solid 0.75em rgba(255, 255, 255, 0);
+  border-bottom: solid 0.75em #fff;
+}
+
+/* line 247, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+.dropotron.level-0:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 1.25em;
+  top: -0.75em;
+  border-left: solid 0.75em rgba(255, 255, 255, 0);
+  border-right: solid 0.75em rgba(255, 255, 255, 0);
+  border-bottom: solid 0.75em #ccc;
+}
+
+/* line 259, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+.dropotron span,
+.dropotron a {
+  display: block;
+  padding: 0.3em 1em 0.3em 1em;
+  border: 0;
+  border-top: solid 1px #f0f0f0;
+  outline: 0;
+}
+
+/* line 269, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+.dropotron li:first-child > span,
+.dropotron li:first-child > a {
+  border-top: 0;
+  padding-top: 0;
+}
+
+/* line 276, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+.dropotron li:hover > span,
+.dropotron li:hover > a {
+  color: #ed786a;
+  -moz-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+  -o-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+  -ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+/* line 291, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#banner {
+  padding: 3em 0 3em 0;
+}
+
+/* line 296, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#banner p {
+  font-size: 1.3em;
+  line-height: 1.1em;
+  letter-spacing: 2px;
+}
+
+/* line 303, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#banner:before,
+#banner:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  width: 35px;
+  height: 141px;
+  margin-top: -70px;
+  opacity: 0.15;
+}
+
+/* line 316, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#banner:before {
+  left: 0;
+}
+
+/* line 321, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#banner:after {
+  right: 0;
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+/* line 339, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#content > section,
+#content > article {
+  margin: 5em 0 0 0;
+  padding: 5em 0 0 0;
+}
+
+/* line 346, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#content > section:first-child,
+#content > article:first-child {
+  margin: 0;
+  padding: 0;
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+/* line 361, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#sidebar > section,
+#sidebar > article {
+  margin: 5em 0 0 0;
+  padding: 5em 0 0 0;
+}
+
+/* line 368, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#sidebar > section:first-child,
+#sidebar > article:first-child {
+  margin: 0;
+  padding: 0;
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+/* line 379, /home/mdautrey/isitix/app/assets/stylesheets/style-desktop.scss */
+#copyright {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+/*style-mobile.scss*/
+/*
+	Strongly Typed by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+/* line 13, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+body, input, textarea, select {
+  line-height: 1.75em;
+  font-size: 11pt;
+  letter-spacing: 0;
+}
+
+/* line 24, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+h2, h3, h4, h5, h6 {
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0 0 1.5em 0;
+}
+
+/* line 32, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+h2 br, h3 br, h4 br, h5 br, h6 br {
+  display: none;
+}
+
+/* Sections/Article */
+/* line 39, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+section,
+article {
+  clear: both;
+  margin: 2em 0 2em 0 !important;
+}
+
+/* line 46, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+section > :first-child,
+article > :first-child {
+  margin-top: 0 !important;
+}
+
+/* line 52, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+section:first-child,
+article:first-child {
+  margin-top: 0 !important;
+}
+
+/* Image */
+/* line 64, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+.image.left {
+  width: 40%;
+}
+
+/* line 69, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+.image.featured {
+  margin: 0 0 2em 0;
+}
+
+/* Button */
+/* line 76, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.button {
+  letter-spacing: 2px;
+  display: block;
+  padding: 1em 0 1em 0;
+}
+
+/* List */
+/* line 92, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+ul.links li {
+  display: block;
+  border: 0;
+  padding: 0.25em 0 0 0;
+  margin: 0;
+}
+
+/* line 104, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+ul.divided li {
+  margin: 2.75em 0 0 0;
+  padding: 2.75em 0 0 0;
+}
+
+/* line 110, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+ul.icons {
+  padding: 0 !important;
+  margin: 0 0 0.5em 0 !important;
+}
+
+/* Box */
+/* line 126, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+.box-excerpt .date {
+  display: block;
+  letter-spacing: 2px;
+  padding: 0.25em 1em 0.25em 1em;
+  margin: 0 auto 2.5em auto;
+  text-align: center;
+}
+
+/*********************************************************************************/
+/* UI                                                                            */
+/*********************************************************************************/
+/* line 143, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#titleBar .toggle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 80px;
+  height: 60px;
+}
+
+/* line 152, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#titleBar .toggle:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: '\f0c9';
+  display: block;
+  width: 60px;
+  height: 40px;
+  background: rgba(232, 232, 232, 0.9);
+  border-radius: 4px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  box-shadow: 0.125em 0.125em 0 0 rgba(0, 0, 0, 0.15);
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  color: #aaa;
+}
+
+/* line 178, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#titleBar .toggle:active:before {
+  opacity: 0.5;
+}
+
+/* line 183, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel {
+  background: #444;
+  border-right: solid 2px #3c3c3c;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 2px;
+  font-size: 0.85em;
+}
+
+/* line 194, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel .link {
+  display: block;
+  color: #ddd;
+  text-decoration: none;
+  height: 44px;
+  line-height: 44px;
+  border: 0;
+  border-top: solid 1px #3c3c3c;
+  padding: 0 1em 0 1em;
+}
+
+/* line 206, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel .link:first-child {
+  border-top: 0;
+}
+
+/* line 211, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel .link.depth-0 {
+  font-weight: 600;
+  color: #fff;
+}
+
+/* line 217, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel .indent-1 {
+  display: inline-block;
+  width: 1em;
+}
+
+/* line 218, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel .indent-2 {
+  display: inline-block;
+  width: 2em;
+}
+
+/* line 219, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel .indent-3 {
+  display: inline-block;
+  width: 3em;
+}
+
+/* line 220, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel .indent-4 {
+  display: inline-block;
+  width: 4em;
+}
+
+/* line 221, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel .indent-5 {
+  display: inline-block;
+  width: 5em;
+}
+
+/* line 222, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel .depth-0 {
+  color: #fff;
+}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+/* line 228, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#header-wrapper {
+  padding: 0 20px 0 20px;
+}
+
+/* line 233, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#features-wrapper {
+  padding: 2em 20px 2em 20px;
+}
+
+/* line 238, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#banner-wrapper {
+  padding: 2em 0 2em 0;
+}
+
+/* line 243, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#main-wrapper {
+  padding: 3em 20px 3em 20px;
+}
+
+/* line 248, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#footer-wrapper {
+  padding: 4em 20px 3em 20px;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+/* line 257, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#header {
+  padding: 6em 0 4em 0;
+}
+
+/* line 262, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#header h1 {
+  font-size: 2em;
+  letter-spacing: 8px;
+  line-height: 1.25em;
+}
+
+/* line 269, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#header p {
+  margin: 1.25em 0 0 0;
+  letter-spacing: 2px;
+}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+/* line 279, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#nav {
+  display: none;
+}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+/* line 288, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#banner {
+  padding: 5em 20px 5em 20px;
+  margin: 0 !important;
+}
+
+/* line 294, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#banner p {
+  font-size: 1.75em;
+  line-height: 1.25em;
+  letter-spacing: 3px;
+}
+
+/* line 301, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#banner p br {
+  display: none;
+}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+/* line 314, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#content > section,
+#content > article {
+  margin: 4em 0 0 0 !important;
+  padding: 4em 0 0 0 !important;
+}
+
+/* line 321, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#content > section:first-child,
+#content > article:first-child {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+/* line 332, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#sidebar {
+  border-top: solid 2px #e5e5e5;
+  box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
+  margin-top: 4em !important;
+  padding-top: 4em !important;
+}
+
+/* line 340, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#sidebar > section,
+#sidebar > article {
+  margin: 4em 0 0 0 !important;
+  padding: 4em 0 0 0 !important;
+}
+
+/* line 347, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#sidebar > section:first-child,
+#sidebar > article:first-child {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+/* line 362, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#footer .icons {
+  margin: 0 0 2em 0 !important;
+}
+
+/* line 367, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#footer .icons:last-child {
+  margin-bottom: 0;
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+/* line 376, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#copyright {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+/*style.scss*/
+/*!
+ *  Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/* FONT PATH
+ * -------------------------- */
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("/assets/fontawesome-webfont-4cf06051de8689239e7087de4b11649c.eot?v=4.4.0");
+  src: url("/assets/fontawesome-webfont-4cf06051de8689239e7087de4b11649c.eot?#iefix&v=4.4.0") format("embedded-opentype"), url("/assets/fontawesome-webfont-bdd5fe963cf9a6bcf9c449166e2e5a57.woff2?v=4.4.0") format("woff2"), url("/assets/fontawesome-webfont-e1e9796e37de923cfba919958e1e7fb0.woff?v=4.4.0") format("woff"), url("/assets/fontawesome-webfont-d920bcf0942384a482f36f878d199d56.ttf?v=4.4.0") format("truetype"), url("/assets/fontawesome-webfont-94502ffb2152a9d2797417d053c954d0.svg?v=4.4.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 19, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* makes the font 33% larger relative to the icon container */
+/* line 28, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+
+/* line 33, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-2x {
+  font-size: 2em;
+}
+
+/* line 36, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-3x {
+  font-size: 3em;
+}
+
+/* line 39, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-4x {
+  font-size: 4em;
+}
+
+/* line 42, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-5x {
+  font-size: 5em;
+}
+
+/* line 45, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+
+/* line 49, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+
+/* line 54, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ul > li {
+  position: relative;
+}
+
+/* line 57, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+
+/* line 64, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-li.fa-lg {
+  left: -1.85714286em;
+}
+
+/* line 67, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+
+/* line 72, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pull-left {
+  float: left;
+}
+
+/* line 75, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pull-right {
+  float: right;
+}
+
+/* line 78, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa.fa-pull-left {
+  margin-right: .3em;
+}
+
+/* line 81, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa.fa-pull-right {
+  margin-left: .3em;
+}
+
+/* Deprecated as of 4.4.0 */
+/* line 85, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.pull-right {
+  float: right;
+}
+
+/* line 88, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.pull-left {
+  float: left;
+}
+
+/* line 91, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa.pull-left {
+  margin-right: .3em;
+}
+
+/* line 94, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa.pull-right {
+  margin-left: .3em;
+}
+
+/* line 97, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+
+/* line 101, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+/* line 125, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+/* line 131, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* line 137, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+/* line 143, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+/* line 149, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+/* line 155, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  filter: none;
+}
+
+/* line 162, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+/* line 170, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stack-1x,
+.fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 177, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stack-1x {
+  line-height: inherit;
+}
+
+/* line 180, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stack-2x {
+  font-size: 2em;
+}
+
+/* line 183, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-inverse {
+  color: #ffffff;
+}
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+/* line 188, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-glass:before {
+  content: "\f000";
+}
+
+/* line 191, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-music:before {
+  content: "\f001";
+}
+
+/* line 194, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-search:before {
+  content: "\f002";
+}
+
+/* line 197, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-envelope-o:before {
+  content: "\f003";
+}
+
+/* line 200, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-heart:before {
+  content: "\f004";
+}
+
+/* line 203, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-star:before {
+  content: "\f005";
+}
+
+/* line 206, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-star-o:before {
+  content: "\f006";
+}
+
+/* line 209, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-user:before {
+  content: "\f007";
+}
+
+/* line 212, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-film:before {
+  content: "\f008";
+}
+
+/* line 215, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-th-large:before {
+  content: "\f009";
+}
+
+/* line 218, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-th:before {
+  content: "\f00a";
+}
+
+/* line 221, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-th-list:before {
+  content: "\f00b";
+}
+
+/* line 224, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-check:before {
+  content: "\f00c";
+}
+
+/* line 227, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+  content: "\f00d";
+}
+
+/* line 232, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-search-plus:before {
+  content: "\f00e";
+}
+
+/* line 235, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-search-minus:before {
+  content: "\f010";
+}
+
+/* line 238, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-power-off:before {
+  content: "\f011";
+}
+
+/* line 241, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-signal:before {
+  content: "\f012";
+}
+
+/* line 244, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gear:before,
+.fa-cog:before {
+  content: "\f013";
+}
+
+/* line 248, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-trash-o:before {
+  content: "\f014";
+}
+
+/* line 251, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-home:before {
+  content: "\f015";
+}
+
+/* line 254, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-o:before {
+  content: "\f016";
+}
+
+/* line 257, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-clock-o:before {
+  content: "\f017";
+}
+
+/* line 260, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-road:before {
+  content: "\f018";
+}
+
+/* line 263, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-download:before {
+  content: "\f019";
+}
+
+/* line 266, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-o-down:before {
+  content: "\f01a";
+}
+
+/* line 269, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-o-up:before {
+  content: "\f01b";
+}
+
+/* line 272, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-inbox:before {
+  content: "\f01c";
+}
+
+/* line 275, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-play-circle-o:before {
+  content: "\f01d";
+}
+
+/* line 278, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rotate-right:before,
+.fa-repeat:before {
+  content: "\f01e";
+}
+
+/* line 282, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-refresh:before {
+  content: "\f021";
+}
+
+/* line 285, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-list-alt:before {
+  content: "\f022";
+}
+
+/* line 288, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-lock:before {
+  content: "\f023";
+}
+
+/* line 291, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flag:before {
+  content: "\f024";
+}
+
+/* line 294, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-headphones:before {
+  content: "\f025";
+}
+
+/* line 297, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-volume-off:before {
+  content: "\f026";
+}
+
+/* line 300, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-volume-down:before {
+  content: "\f027";
+}
+
+/* line 303, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-volume-up:before {
+  content: "\f028";
+}
+
+/* line 306, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-qrcode:before {
+  content: "\f029";
+}
+
+/* line 309, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-barcode:before {
+  content: "\f02a";
+}
+
+/* line 312, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tag:before {
+  content: "\f02b";
+}
+
+/* line 315, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tags:before {
+  content: "\f02c";
+}
+
+/* line 318, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-book:before {
+  content: "\f02d";
+}
+
+/* line 321, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bookmark:before {
+  content: "\f02e";
+}
+
+/* line 324, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-print:before {
+  content: "\f02f";
+}
+
+/* line 327, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-camera:before {
+  content: "\f030";
+}
+
+/* line 330, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-font:before {
+  content: "\f031";
+}
+
+/* line 333, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bold:before {
+  content: "\f032";
+}
+
+/* line 336, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-italic:before {
+  content: "\f033";
+}
+
+/* line 339, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-text-height:before {
+  content: "\f034";
+}
+
+/* line 342, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-text-width:before {
+  content: "\f035";
+}
+
+/* line 345, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-align-left:before {
+  content: "\f036";
+}
+
+/* line 348, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-align-center:before {
+  content: "\f037";
+}
+
+/* line 351, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-align-right:before {
+  content: "\f038";
+}
+
+/* line 354, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-align-justify:before {
+  content: "\f039";
+}
+
+/* line 357, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-list:before {
+  content: "\f03a";
+}
+
+/* line 360, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dedent:before,
+.fa-outdent:before {
+  content: "\f03b";
+}
+
+/* line 364, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-indent:before {
+  content: "\f03c";
+}
+
+/* line 367, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-video-camera:before {
+  content: "\f03d";
+}
+
+/* line 370, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-photo:before,
+.fa-image:before,
+.fa-picture-o:before {
+  content: "\f03e";
+}
+
+/* line 375, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pencil:before {
+  content: "\f040";
+}
+
+/* line 378, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-map-marker:before {
+  content: "\f041";
+}
+
+/* line 381, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-adjust:before {
+  content: "\f042";
+}
+
+/* line 384, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tint:before {
+  content: "\f043";
+}
+
+/* line 387, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-edit:before,
+.fa-pencil-square-o:before {
+  content: "\f044";
+}
+
+/* line 391, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-share-square-o:before {
+  content: "\f045";
+}
+
+/* line 394, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-check-square-o:before {
+  content: "\f046";
+}
+
+/* line 397, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrows:before {
+  content: "\f047";
+}
+
+/* line 400, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-step-backward:before {
+  content: "\f048";
+}
+
+/* line 403, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fast-backward:before {
+  content: "\f049";
+}
+
+/* line 406, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-backward:before {
+  content: "\f04a";
+}
+
+/* line 409, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-play:before {
+  content: "\f04b";
+}
+
+/* line 412, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pause:before {
+  content: "\f04c";
+}
+
+/* line 415, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stop:before {
+  content: "\f04d";
+}
+
+/* line 418, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-forward:before {
+  content: "\f04e";
+}
+
+/* line 421, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fast-forward:before {
+  content: "\f050";
+}
+
+/* line 424, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-step-forward:before {
+  content: "\f051";
+}
+
+/* line 427, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-eject:before {
+  content: "\f052";
+}
+
+/* line 430, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-left:before {
+  content: "\f053";
+}
+
+/* line 433, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-right:before {
+  content: "\f054";
+}
+
+/* line 436, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-plus-circle:before {
+  content: "\f055";
+}
+
+/* line 439, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-minus-circle:before {
+  content: "\f056";
+}
+
+/* line 442, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-times-circle:before {
+  content: "\f057";
+}
+
+/* line 445, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-check-circle:before {
+  content: "\f058";
+}
+
+/* line 448, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-question-circle:before {
+  content: "\f059";
+}
+
+/* line 451, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-info-circle:before {
+  content: "\f05a";
+}
+
+/* line 454, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-crosshairs:before {
+  content: "\f05b";
+}
+
+/* line 457, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-times-circle-o:before {
+  content: "\f05c";
+}
+
+/* line 460, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-check-circle-o:before {
+  content: "\f05d";
+}
+
+/* line 463, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ban:before {
+  content: "\f05e";
+}
+
+/* line 466, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-left:before {
+  content: "\f060";
+}
+
+/* line 469, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-right:before {
+  content: "\f061";
+}
+
+/* line 472, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-up:before {
+  content: "\f062";
+}
+
+/* line 475, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-down:before {
+  content: "\f063";
+}
+
+/* line 478, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mail-forward:before,
+.fa-share:before {
+  content: "\f064";
+}
+
+/* line 482, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-expand:before {
+  content: "\f065";
+}
+
+/* line 485, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-compress:before {
+  content: "\f066";
+}
+
+/* line 488, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-plus:before {
+  content: "\f067";
+}
+
+/* line 491, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-minus:before {
+  content: "\f068";
+}
+
+/* line 494, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-asterisk:before {
+  content: "\f069";
+}
+
+/* line 497, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-exclamation-circle:before {
+  content: "\f06a";
+}
+
+/* line 500, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gift:before {
+  content: "\f06b";
+}
+
+/* line 503, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-leaf:before {
+  content: "\f06c";
+}
+
+/* line 506, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fire:before {
+  content: "\f06d";
+}
+
+/* line 509, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-eye:before {
+  content: "\f06e";
+}
+
+/* line 512, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-eye-slash:before {
+  content: "\f070";
+}
+
+/* line 515, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-warning:before,
+.fa-exclamation-triangle:before {
+  content: "\f071";
+}
+
+/* line 519, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-plane:before {
+  content: "\f072";
+}
+
+/* line 522, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-calendar:before {
+  content: "\f073";
+}
+
+/* line 525, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-random:before {
+  content: "\f074";
+}
+
+/* line 528, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-comment:before {
+  content: "\f075";
+}
+
+/* line 531, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-magnet:before {
+  content: "\f076";
+}
+
+/* line 534, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-up:before {
+  content: "\f077";
+}
+
+/* line 537, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-down:before {
+  content: "\f078";
+}
+
+/* line 540, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-retweet:before {
+  content: "\f079";
+}
+
+/* line 543, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-shopping-cart:before {
+  content: "\f07a";
+}
+
+/* line 546, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-folder:before {
+  content: "\f07b";
+}
+
+/* line 549, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-folder-open:before {
+  content: "\f07c";
+}
+
+/* line 552, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrows-v:before {
+  content: "\f07d";
+}
+
+/* line 555, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrows-h:before {
+  content: "\f07e";
+}
+
+/* line 558, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bar-chart-o:before,
+.fa-bar-chart:before {
+  content: "\f080";
+}
+
+/* line 562, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-twitter-square:before {
+  content: "\f081";
+}
+
+/* line 565, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-facebook-square:before {
+  content: "\f082";
+}
+
+/* line 568, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-camera-retro:before {
+  content: "\f083";
+}
+
+/* line 571, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-key:before {
+  content: "\f084";
+}
+
+/* line 574, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gears:before,
+.fa-cogs:before {
+  content: "\f085";
+}
+
+/* line 578, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-comments:before {
+  content: "\f086";
+}
+
+/* line 581, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-thumbs-o-up:before {
+  content: "\f087";
+}
+
+/* line 584, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-thumbs-o-down:before {
+  content: "\f088";
+}
+
+/* line 587, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-star-half:before {
+  content: "\f089";
+}
+
+/* line 590, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-heart-o:before {
+  content: "\f08a";
+}
+
+/* line 593, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sign-out:before {
+  content: "\f08b";
+}
+
+/* line 596, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-linkedin-square:before {
+  content: "\f08c";
+}
+
+/* line 599, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-thumb-tack:before {
+  content: "\f08d";
+}
+
+/* line 602, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-external-link:before {
+  content: "\f08e";
+}
+
+/* line 605, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sign-in:before {
+  content: "\f090";
+}
+
+/* line 608, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-trophy:before {
+  content: "\f091";
+}
+
+/* line 611, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-github-square:before {
+  content: "\f092";
+}
+
+/* line 614, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-upload:before {
+  content: "\f093";
+}
+
+/* line 617, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-lemon-o:before {
+  content: "\f094";
+}
+
+/* line 620, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-phone:before {
+  content: "\f095";
+}
+
+/* line 623, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-square-o:before {
+  content: "\f096";
+}
+
+/* line 626, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bookmark-o:before {
+  content: "\f097";
+}
+
+/* line 629, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-phone-square:before {
+  content: "\f098";
+}
+
+/* line 632, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-twitter:before {
+  content: "\f099";
+}
+
+/* line 635, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+/* line 639, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-github:before {
+  content: "\f09b";
+}
+
+/* line 642, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-unlock:before {
+  content: "\f09c";
+}
+
+/* line 645, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-credit-card:before {
+  content: "\f09d";
+}
+
+/* line 648, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-feed:before,
+.fa-rss:before {
+  content: "\f09e";
+}
+
+/* line 652, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hdd-o:before {
+  content: "\f0a0";
+}
+
+/* line 655, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bullhorn:before {
+  content: "\f0a1";
+}
+
+/* line 658, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bell:before {
+  content: "\f0f3";
+}
+
+/* line 661, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-certificate:before {
+  content: "\f0a3";
+}
+
+/* line 664, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-o-right:before {
+  content: "\f0a4";
+}
+
+/* line 667, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-o-left:before {
+  content: "\f0a5";
+}
+
+/* line 670, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-o-up:before {
+  content: "\f0a6";
+}
+
+/* line 673, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-o-down:before {
+  content: "\f0a7";
+}
+
+/* line 676, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-left:before {
+  content: "\f0a8";
+}
+
+/* line 679, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-right:before {
+  content: "\f0a9";
+}
+
+/* line 682, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-up:before {
+  content: "\f0aa";
+}
+
+/* line 685, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-down:before {
+  content: "\f0ab";
+}
+
+/* line 688, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-globe:before {
+  content: "\f0ac";
+}
+
+/* line 691, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wrench:before {
+  content: "\f0ad";
+}
+
+/* line 694, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tasks:before {
+  content: "\f0ae";
+}
+
+/* line 697, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-filter:before {
+  content: "\f0b0";
+}
+
+/* line 700, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-briefcase:before {
+  content: "\f0b1";
+}
+
+/* line 703, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrows-alt:before {
+  content: "\f0b2";
+}
+
+/* line 706, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-group:before,
+.fa-users:before {
+  content: "\f0c0";
+}
+
+/* line 710, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chain:before,
+.fa-link:before {
+  content: "\f0c1";
+}
+
+/* line 714, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cloud:before {
+  content: "\f0c2";
+}
+
+/* line 717, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flask:before {
+  content: "\f0c3";
+}
+
+/* line 720, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cut:before,
+.fa-scissors:before {
+  content: "\f0c4";
+}
+
+/* line 724, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-copy:before,
+.fa-files-o:before {
+  content: "\f0c5";
+}
+
+/* line 728, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-paperclip:before {
+  content: "\f0c6";
+}
+
+/* line 731, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-save:before,
+.fa-floppy-o:before {
+  content: "\f0c7";
+}
+
+/* line 735, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-square:before {
+  content: "\f0c8";
+}
+
+/* line 738, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  content: "\f0c9";
+}
+
+/* line 743, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-list-ul:before {
+  content: "\f0ca";
+}
+
+/* line 746, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-list-ol:before {
+  content: "\f0cb";
+}
+
+/* line 749, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-strikethrough:before {
+  content: "\f0cc";
+}
+
+/* line 752, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-underline:before {
+  content: "\f0cd";
+}
+
+/* line 755, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-table:before {
+  content: "\f0ce";
+}
+
+/* line 758, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-magic:before {
+  content: "\f0d0";
+}
+
+/* line 761, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-truck:before {
+  content: "\f0d1";
+}
+
+/* line 764, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pinterest:before {
+  content: "\f0d2";
+}
+
+/* line 767, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pinterest-square:before {
+  content: "\f0d3";
+}
+
+/* line 770, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-google-plus-square:before {
+  content: "\f0d4";
+}
+
+/* line 773, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-google-plus:before {
+  content: "\f0d5";
+}
+
+/* line 776, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-money:before {
+  content: "\f0d6";
+}
+
+/* line 779, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-caret-down:before {
+  content: "\f0d7";
+}
+
+/* line 782, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-caret-up:before {
+  content: "\f0d8";
+}
+
+/* line 785, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-caret-left:before {
+  content: "\f0d9";
+}
+
+/* line 788, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-caret-right:before {
+  content: "\f0da";
+}
+
+/* line 791, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-columns:before {
+  content: "\f0db";
+}
+
+/* line 794, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-unsorted:before,
+.fa-sort:before {
+  content: "\f0dc";
+}
+
+/* line 798, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-down:before,
+.fa-sort-desc:before {
+  content: "\f0dd";
+}
+
+/* line 802, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-up:before,
+.fa-sort-asc:before {
+  content: "\f0de";
+}
+
+/* line 806, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-envelope:before {
+  content: "\f0e0";
+}
+
+/* line 809, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-linkedin:before {
+  content: "\f0e1";
+}
+
+/* line 812, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rotate-left:before,
+.fa-undo:before {
+  content: "\f0e2";
+}
+
+/* line 816, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-legal:before,
+.fa-gavel:before {
+  content: "\f0e3";
+}
+
+/* line 820, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dashboard:before,
+.fa-tachometer:before {
+  content: "\f0e4";
+}
+
+/* line 824, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-comment-o:before {
+  content: "\f0e5";
+}
+
+/* line 827, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-comments-o:before {
+  content: "\f0e6";
+}
+
+/* line 830, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flash:before,
+.fa-bolt:before {
+  content: "\f0e7";
+}
+
+/* line 834, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sitemap:before {
+  content: "\f0e8";
+}
+
+/* line 837, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-umbrella:before {
+  content: "\f0e9";
+}
+
+/* line 840, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-paste:before,
+.fa-clipboard:before {
+  content: "\f0ea";
+}
+
+/* line 844, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-lightbulb-o:before {
+  content: "\f0eb";
+}
+
+/* line 847, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-exchange:before {
+  content: "\f0ec";
+}
+
+/* line 850, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cloud-download:before {
+  content: "\f0ed";
+}
+
+/* line 853, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cloud-upload:before {
+  content: "\f0ee";
+}
+
+/* line 856, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-user-md:before {
+  content: "\f0f0";
+}
+
+/* line 859, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stethoscope:before {
+  content: "\f0f1";
+}
+
+/* line 862, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-suitcase:before {
+  content: "\f0f2";
+}
+
+/* line 865, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bell-o:before {
+  content: "\f0a2";
+}
+
+/* line 868, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-coffee:before {
+  content: "\f0f4";
+}
+
+/* line 871, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cutlery:before {
+  content: "\f0f5";
+}
+
+/* line 874, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-text-o:before {
+  content: "\f0f6";
+}
+
+/* line 877, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-building-o:before {
+  content: "\f0f7";
+}
+
+/* line 880, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hospital-o:before {
+  content: "\f0f8";
+}
+
+/* line 883, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ambulance:before {
+  content: "\f0f9";
+}
+
+/* line 886, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-medkit:before {
+  content: "\f0fa";
+}
+
+/* line 889, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fighter-jet:before {
+  content: "\f0fb";
+}
+
+/* line 892, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-beer:before {
+  content: "\f0fc";
+}
+
+/* line 895, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-h-square:before {
+  content: "\f0fd";
+}
+
+/* line 898, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-plus-square:before {
+  content: "\f0fe";
+}
+
+/* line 901, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-double-left:before {
+  content: "\f100";
+}
+
+/* line 904, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-double-right:before {
+  content: "\f101";
+}
+
+/* line 907, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-double-up:before {
+  content: "\f102";
+}
+
+/* line 910, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-double-down:before {
+  content: "\f103";
+}
+
+/* line 913, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-left:before {
+  content: "\f104";
+}
+
+/* line 916, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-right:before {
+  content: "\f105";
+}
+
+/* line 919, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-up:before {
+  content: "\f106";
+}
+
+/* line 922, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angle-down:before {
+  content: "\f107";
+}
+
+/* line 925, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-desktop:before {
+  content: "\f108";
+}
+
+/* line 928, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-laptop:before {
+  content: "\f109";
+}
+
+/* line 931, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tablet:before {
+  content: "\f10a";
+}
+
+/* line 934, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mobile-phone:before,
+.fa-mobile:before {
+  content: "\f10b";
+}
+
+/* line 938, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-circle-o:before {
+  content: "\f10c";
+}
+
+/* line 941, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-quote-left:before {
+  content: "\f10d";
+}
+
+/* line 944, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-quote-right:before {
+  content: "\f10e";
+}
+
+/* line 947, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-spinner:before {
+  content: "\f110";
+}
+
+/* line 950, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-circle:before {
+  content: "\f111";
+}
+
+/* line 953, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mail-reply:before,
+.fa-reply:before {
+  content: "\f112";
+}
+
+/* line 957, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-github-alt:before {
+  content: "\f113";
+}
+
+/* line 960, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-folder-o:before {
+  content: "\f114";
+}
+
+/* line 963, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-folder-open-o:before {
+  content: "\f115";
+}
+
+/* line 966, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-smile-o:before {
+  content: "\f118";
+}
+
+/* line 969, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-frown-o:before {
+  content: "\f119";
+}
+
+/* line 972, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-meh-o:before {
+  content: "\f11a";
+}
+
+/* line 975, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gamepad:before {
+  content: "\f11b";
+}
+
+/* line 978, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-keyboard-o:before {
+  content: "\f11c";
+}
+
+/* line 981, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flag-o:before {
+  content: "\f11d";
+}
+
+/* line 984, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flag-checkered:before {
+  content: "\f11e";
+}
+
+/* line 987, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-terminal:before {
+  content: "\f120";
+}
+
+/* line 990, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-code:before {
+  content: "\f121";
+}
+
+/* line 993, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mail-reply-all:before,
+.fa-reply-all:before {
+  content: "\f122";
+}
+
+/* line 997, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-star-half-empty:before,
+.fa-star-half-full:before,
+.fa-star-half-o:before {
+  content: "\f123";
+}
+
+/* line 1002, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-location-arrow:before {
+  content: "\f124";
+}
+
+/* line 1005, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-crop:before {
+  content: "\f125";
+}
+
+/* line 1008, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-code-fork:before {
+  content: "\f126";
+}
+
+/* line 1011, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-unlink:before,
+.fa-chain-broken:before {
+  content: "\f127";
+}
+
+/* line 1015, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-question:before {
+  content: "\f128";
+}
+
+/* line 1018, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-info:before {
+  content: "\f129";
+}
+
+/* line 1021, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-exclamation:before {
+  content: "\f12a";
+}
+
+/* line 1024, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-superscript:before {
+  content: "\f12b";
+}
+
+/* line 1027, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-subscript:before {
+  content: "\f12c";
+}
+
+/* line 1030, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-eraser:before {
+  content: "\f12d";
+}
+
+/* line 1033, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-puzzle-piece:before {
+  content: "\f12e";
+}
+
+/* line 1036, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-microphone:before {
+  content: "\f130";
+}
+
+/* line 1039, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-microphone-slash:before {
+  content: "\f131";
+}
+
+/* line 1042, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-shield:before {
+  content: "\f132";
+}
+
+/* line 1045, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-calendar-o:before {
+  content: "\f133";
+}
+
+/* line 1048, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fire-extinguisher:before {
+  content: "\f134";
+}
+
+/* line 1051, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rocket:before {
+  content: "\f135";
+}
+
+/* line 1054, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-maxcdn:before {
+  content: "\f136";
+}
+
+/* line 1057, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-circle-left:before {
+  content: "\f137";
+}
+
+/* line 1060, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-circle-right:before {
+  content: "\f138";
+}
+
+/* line 1063, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-circle-up:before {
+  content: "\f139";
+}
+
+/* line 1066, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chevron-circle-down:before {
+  content: "\f13a";
+}
+
+/* line 1069, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-html5:before {
+  content: "\f13b";
+}
+
+/* line 1072, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-css3:before {
+  content: "\f13c";
+}
+
+/* line 1075, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-anchor:before {
+  content: "\f13d";
+}
+
+/* line 1078, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-unlock-alt:before {
+  content: "\f13e";
+}
+
+/* line 1081, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bullseye:before {
+  content: "\f140";
+}
+
+/* line 1084, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ellipsis-h:before {
+  content: "\f141";
+}
+
+/* line 1087, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ellipsis-v:before {
+  content: "\f142";
+}
+
+/* line 1090, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rss-square:before {
+  content: "\f143";
+}
+
+/* line 1093, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-play-circle:before {
+  content: "\f144";
+}
+
+/* line 1096, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ticket:before {
+  content: "\f145";
+}
+
+/* line 1099, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-minus-square:before {
+  content: "\f146";
+}
+
+/* line 1102, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-minus-square-o:before {
+  content: "\f147";
+}
+
+/* line 1105, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-level-up:before {
+  content: "\f148";
+}
+
+/* line 1108, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-level-down:before {
+  content: "\f149";
+}
+
+/* line 1111, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-check-square:before {
+  content: "\f14a";
+}
+
+/* line 1114, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pencil-square:before {
+  content: "\f14b";
+}
+
+/* line 1117, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-external-link-square:before {
+  content: "\f14c";
+}
+
+/* line 1120, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-share-square:before {
+  content: "\f14d";
+}
+
+/* line 1123, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-compass:before {
+  content: "\f14e";
+}
+
+/* line 1126, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-toggle-down:before,
+.fa-caret-square-o-down:before {
+  content: "\f150";
+}
+
+/* line 1130, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-toggle-up:before,
+.fa-caret-square-o-up:before {
+  content: "\f151";
+}
+
+/* line 1134, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-toggle-right:before,
+.fa-caret-square-o-right:before {
+  content: "\f152";
+}
+
+/* line 1138, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-euro:before,
+.fa-eur:before {
+  content: "\f153";
+}
+
+/* line 1142, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gbp:before {
+  content: "\f154";
+}
+
+/* line 1145, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dollar:before,
+.fa-usd:before {
+  content: "\f155";
+}
+
+/* line 1149, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-rupee:before,
+.fa-inr:before {
+  content: "\f156";
+}
+
+/* line 1153, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cny:before,
+.fa-rmb:before,
+.fa-yen:before,
+.fa-jpy:before {
+  content: "\f157";
+}
+
+/* line 1159, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ruble:before,
+.fa-rouble:before,
+.fa-rub:before {
+  content: "\f158";
+}
+
+/* line 1164, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-won:before,
+.fa-krw:before {
+  content: "\f159";
+}
+
+/* line 1168, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bitcoin:before,
+.fa-btc:before {
+  content: "\f15a";
+}
+
+/* line 1172, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file:before {
+  content: "\f15b";
+}
+
+/* line 1175, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-text:before {
+  content: "\f15c";
+}
+
+/* line 1178, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-alpha-asc:before {
+  content: "\f15d";
+}
+
+/* line 1181, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-alpha-desc:before {
+  content: "\f15e";
+}
+
+/* line 1184, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-amount-asc:before {
+  content: "\f160";
+}
+
+/* line 1187, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-amount-desc:before {
+  content: "\f161";
+}
+
+/* line 1190, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-numeric-asc:before {
+  content: "\f162";
+}
+
+/* line 1193, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sort-numeric-desc:before {
+  content: "\f163";
+}
+
+/* line 1196, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-thumbs-up:before {
+  content: "\f164";
+}
+
+/* line 1199, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-thumbs-down:before {
+  content: "\f165";
+}
+
+/* line 1202, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-youtube-square:before {
+  content: "\f166";
+}
+
+/* line 1205, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-youtube:before {
+  content: "\f167";
+}
+
+/* line 1208, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-xing:before {
+  content: "\f168";
+}
+
+/* line 1211, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-xing-square:before {
+  content: "\f169";
+}
+
+/* line 1214, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-youtube-play:before {
+  content: "\f16a";
+}
+
+/* line 1217, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dropbox:before {
+  content: "\f16b";
+}
+
+/* line 1220, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stack-overflow:before {
+  content: "\f16c";
+}
+
+/* line 1223, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-instagram:before {
+  content: "\f16d";
+}
+
+/* line 1226, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-flickr:before {
+  content: "\f16e";
+}
+
+/* line 1229, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-adn:before {
+  content: "\f170";
+}
+
+/* line 1232, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bitbucket:before {
+  content: "\f171";
+}
+
+/* line 1235, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bitbucket-square:before {
+  content: "\f172";
+}
+
+/* line 1238, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tumblr:before {
+  content: "\f173";
+}
+
+/* line 1241, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tumblr-square:before {
+  content: "\f174";
+}
+
+/* line 1244, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-long-arrow-down:before {
+  content: "\f175";
+}
+
+/* line 1247, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-long-arrow-up:before {
+  content: "\f176";
+}
+
+/* line 1250, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-long-arrow-left:before {
+  content: "\f177";
+}
+
+/* line 1253, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-long-arrow-right:before {
+  content: "\f178";
+}
+
+/* line 1256, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-apple:before {
+  content: "\f179";
+}
+
+/* line 1259, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-windows:before {
+  content: "\f17a";
+}
+
+/* line 1262, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-android:before {
+  content: "\f17b";
+}
+
+/* line 1265, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-linux:before {
+  content: "\f17c";
+}
+
+/* line 1268, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dribbble:before {
+  content: "\f17d";
+}
+
+/* line 1271, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-skype:before {
+  content: "\f17e";
+}
+
+/* line 1274, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-foursquare:before {
+  content: "\f180";
+}
+
+/* line 1277, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-trello:before {
+  content: "\f181";
+}
+
+/* line 1280, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-female:before {
+  content: "\f182";
+}
+
+/* line 1283, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-male:before {
+  content: "\f183";
+}
+
+/* line 1286, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gittip:before,
+.fa-gratipay:before {
+  content: "\f184";
+}
+
+/* line 1290, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sun-o:before {
+  content: "\f185";
+}
+
+/* line 1293, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-moon-o:before {
+  content: "\f186";
+}
+
+/* line 1296, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-archive:before {
+  content: "\f187";
+}
+
+/* line 1299, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bug:before {
+  content: "\f188";
+}
+
+/* line 1302, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-vk:before {
+  content: "\f189";
+}
+
+/* line 1305, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-weibo:before {
+  content: "\f18a";
+}
+
+/* line 1308, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-renren:before {
+  content: "\f18b";
+}
+
+/* line 1311, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pagelines:before {
+  content: "\f18c";
+}
+
+/* line 1314, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stack-exchange:before {
+  content: "\f18d";
+}
+
+/* line 1317, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-o-right:before {
+  content: "\f18e";
+}
+
+/* line 1320, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-arrow-circle-o-left:before {
+  content: "\f190";
+}
+
+/* line 1323, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-toggle-left:before,
+.fa-caret-square-o-left:before {
+  content: "\f191";
+}
+
+/* line 1327, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dot-circle-o:before {
+  content: "\f192";
+}
+
+/* line 1330, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wheelchair:before {
+  content: "\f193";
+}
+
+/* line 1333, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-vimeo-square:before {
+  content: "\f194";
+}
+
+/* line 1336, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-turkish-lira:before,
+.fa-try:before {
+  content: "\f195";
+}
+
+/* line 1340, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-plus-square-o:before {
+  content: "\f196";
+}
+
+/* line 1343, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-space-shuttle:before {
+  content: "\f197";
+}
+
+/* line 1346, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-slack:before {
+  content: "\f198";
+}
+
+/* line 1349, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-envelope-square:before {
+  content: "\f199";
+}
+
+/* line 1352, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wordpress:before {
+  content: "\f19a";
+}
+
+/* line 1355, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-openid:before {
+  content: "\f19b";
+}
+
+/* line 1358, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-institution:before,
+.fa-bank:before,
+.fa-university:before {
+  content: "\f19c";
+}
+
+/* line 1363, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mortar-board:before,
+.fa-graduation-cap:before {
+  content: "\f19d";
+}
+
+/* line 1367, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-yahoo:before {
+  content: "\f19e";
+}
+
+/* line 1370, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-google:before {
+  content: "\f1a0";
+}
+
+/* line 1373, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-reddit:before {
+  content: "\f1a1";
+}
+
+/* line 1376, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-reddit-square:before {
+  content: "\f1a2";
+}
+
+/* line 1379, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stumbleupon-circle:before {
+  content: "\f1a3";
+}
+
+/* line 1382, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-stumbleupon:before {
+  content: "\f1a4";
+}
+
+/* line 1385, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-delicious:before {
+  content: "\f1a5";
+}
+
+/* line 1388, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-digg:before {
+  content: "\f1a6";
+}
+
+/* line 1391, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pied-piper:before {
+  content: "\f1a7";
+}
+
+/* line 1394, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pied-piper-alt:before {
+  content: "\f1a8";
+}
+
+/* line 1397, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-drupal:before {
+  content: "\f1a9";
+}
+
+/* line 1400, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-joomla:before {
+  content: "\f1aa";
+}
+
+/* line 1403, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-language:before {
+  content: "\f1ab";
+}
+
+/* line 1406, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fax:before {
+  content: "\f1ac";
+}
+
+/* line 1409, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-building:before {
+  content: "\f1ad";
+}
+
+/* line 1412, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-child:before {
+  content: "\f1ae";
+}
+
+/* line 1415, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-paw:before {
+  content: "\f1b0";
+}
+
+/* line 1418, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-spoon:before {
+  content: "\f1b1";
+}
+
+/* line 1421, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cube:before {
+  content: "\f1b2";
+}
+
+/* line 1424, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cubes:before {
+  content: "\f1b3";
+}
+
+/* line 1427, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-behance:before {
+  content: "\f1b4";
+}
+
+/* line 1430, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-behance-square:before {
+  content: "\f1b5";
+}
+
+/* line 1433, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-steam:before {
+  content: "\f1b6";
+}
+
+/* line 1436, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-steam-square:before {
+  content: "\f1b7";
+}
+
+/* line 1439, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-recycle:before {
+  content: "\f1b8";
+}
+
+/* line 1442, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-automobile:before,
+.fa-car:before {
+  content: "\f1b9";
+}
+
+/* line 1446, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cab:before,
+.fa-taxi:before {
+  content: "\f1ba";
+}
+
+/* line 1450, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tree:before {
+  content: "\f1bb";
+}
+
+/* line 1453, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-spotify:before {
+  content: "\f1bc";
+}
+
+/* line 1456, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-deviantart:before {
+  content: "\f1bd";
+}
+
+/* line 1459, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-soundcloud:before {
+  content: "\f1be";
+}
+
+/* line 1462, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-database:before {
+  content: "\f1c0";
+}
+
+/* line 1465, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-pdf-o:before {
+  content: "\f1c1";
+}
+
+/* line 1468, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-word-o:before {
+  content: "\f1c2";
+}
+
+/* line 1471, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-excel-o:before {
+  content: "\f1c3";
+}
+
+/* line 1474, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-powerpoint-o:before {
+  content: "\f1c4";
+}
+
+/* line 1477, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-photo-o:before,
+.fa-file-picture-o:before,
+.fa-file-image-o:before {
+  content: "\f1c5";
+}
+
+/* line 1482, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-zip-o:before,
+.fa-file-archive-o:before {
+  content: "\f1c6";
+}
+
+/* line 1486, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-sound-o:before,
+.fa-file-audio-o:before {
+  content: "\f1c7";
+}
+
+/* line 1490, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-movie-o:before,
+.fa-file-video-o:before {
+  content: "\f1c8";
+}
+
+/* line 1494, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-file-code-o:before {
+  content: "\f1c9";
+}
+
+/* line 1497, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-vine:before {
+  content: "\f1ca";
+}
+
+/* line 1500, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-codepen:before {
+  content: "\f1cb";
+}
+
+/* line 1503, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-jsfiddle:before {
+  content: "\f1cc";
+}
+
+/* line 1506, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-life-bouy:before,
+.fa-life-buoy:before,
+.fa-life-saver:before,
+.fa-support:before,
+.fa-life-ring:before {
+  content: "\f1cd";
+}
+
+/* line 1513, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-circle-o-notch:before {
+  content: "\f1ce";
+}
+
+/* line 1516, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ra:before,
+.fa-rebel:before {
+  content: "\f1d0";
+}
+
+/* line 1520, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ge:before,
+.fa-empire:before {
+  content: "\f1d1";
+}
+
+/* line 1524, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-git-square:before {
+  content: "\f1d2";
+}
+
+/* line 1527, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-git:before {
+  content: "\f1d3";
+}
+
+/* line 1530, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-y-combinator-square:before,
+.fa-yc-square:before,
+.fa-hacker-news:before {
+  content: "\f1d4";
+}
+
+/* line 1535, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tencent-weibo:before {
+  content: "\f1d5";
+}
+
+/* line 1538, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-qq:before {
+  content: "\f1d6";
+}
+
+/* line 1541, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wechat:before,
+.fa-weixin:before {
+  content: "\f1d7";
+}
+
+/* line 1545, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-send:before,
+.fa-paper-plane:before {
+  content: "\f1d8";
+}
+
+/* line 1549, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-send-o:before,
+.fa-paper-plane-o:before {
+  content: "\f1d9";
+}
+
+/* line 1553, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-history:before {
+  content: "\f1da";
+}
+
+/* line 1556, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-circle-thin:before {
+  content: "\f1db";
+}
+
+/* line 1559, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-header:before {
+  content: "\f1dc";
+}
+
+/* line 1562, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-paragraph:before {
+  content: "\f1dd";
+}
+
+/* line 1565, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sliders:before {
+  content: "\f1de";
+}
+
+/* line 1568, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-share-alt:before {
+  content: "\f1e0";
+}
+
+/* line 1571, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-share-alt-square:before {
+  content: "\f1e1";
+}
+
+/* line 1574, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bomb:before {
+  content: "\f1e2";
+}
+
+/* line 1577, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-soccer-ball-o:before,
+.fa-futbol-o:before {
+  content: "\f1e3";
+}
+
+/* line 1581, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tty:before {
+  content: "\f1e4";
+}
+
+/* line 1584, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-binoculars:before {
+  content: "\f1e5";
+}
+
+/* line 1587, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-plug:before {
+  content: "\f1e6";
+}
+
+/* line 1590, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-slideshare:before {
+  content: "\f1e7";
+}
+
+/* line 1593, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-twitch:before {
+  content: "\f1e8";
+}
+
+/* line 1596, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-yelp:before {
+  content: "\f1e9";
+}
+
+/* line 1599, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-newspaper-o:before {
+  content: "\f1ea";
+}
+
+/* line 1602, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wifi:before {
+  content: "\f1eb";
+}
+
+/* line 1605, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-calculator:before {
+  content: "\f1ec";
+}
+
+/* line 1608, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-paypal:before {
+  content: "\f1ed";
+}
+
+/* line 1611, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-google-wallet:before {
+  content: "\f1ee";
+}
+
+/* line 1614, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-visa:before {
+  content: "\f1f0";
+}
+
+/* line 1617, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-mastercard:before {
+  content: "\f1f1";
+}
+
+/* line 1620, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-discover:before {
+  content: "\f1f2";
+}
+
+/* line 1623, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-amex:before {
+  content: "\f1f3";
+}
+
+/* line 1626, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-paypal:before {
+  content: "\f1f4";
+}
+
+/* line 1629, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-stripe:before {
+  content: "\f1f5";
+}
+
+/* line 1632, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bell-slash:before {
+  content: "\f1f6";
+}
+
+/* line 1635, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bell-slash-o:before {
+  content: "\f1f7";
+}
+
+/* line 1638, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-trash:before {
+  content: "\f1f8";
+}
+
+/* line 1641, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-copyright:before {
+  content: "\f1f9";
+}
+
+/* line 1644, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-at:before {
+  content: "\f1fa";
+}
+
+/* line 1647, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-eyedropper:before {
+  content: "\f1fb";
+}
+
+/* line 1650, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-paint-brush:before {
+  content: "\f1fc";
+}
+
+/* line 1653, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-birthday-cake:before {
+  content: "\f1fd";
+}
+
+/* line 1656, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-area-chart:before {
+  content: "\f1fe";
+}
+
+/* line 1659, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pie-chart:before {
+  content: "\f200";
+}
+
+/* line 1662, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-line-chart:before {
+  content: "\f201";
+}
+
+/* line 1665, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-lastfm:before {
+  content: "\f202";
+}
+
+/* line 1668, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-lastfm-square:before {
+  content: "\f203";
+}
+
+/* line 1671, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-toggle-off:before {
+  content: "\f204";
+}
+
+/* line 1674, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-toggle-on:before {
+  content: "\f205";
+}
+
+/* line 1677, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bicycle:before {
+  content: "\f206";
+}
+
+/* line 1680, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-bus:before {
+  content: "\f207";
+}
+
+/* line 1683, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ioxhost:before {
+  content: "\f208";
+}
+
+/* line 1686, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-angellist:before {
+  content: "\f209";
+}
+
+/* line 1689, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc:before {
+  content: "\f20a";
+}
+
+/* line 1692, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-shekel:before,
+.fa-sheqel:before,
+.fa-ils:before {
+  content: "\f20b";
+}
+
+/* line 1697, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-meanpath:before {
+  content: "\f20c";
+}
+
+/* line 1700, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-buysellads:before {
+  content: "\f20d";
+}
+
+/* line 1703, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-connectdevelop:before {
+  content: "\f20e";
+}
+
+/* line 1706, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-dashcube:before {
+  content: "\f210";
+}
+
+/* line 1709, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-forumbee:before {
+  content: "\f211";
+}
+
+/* line 1712, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-leanpub:before {
+  content: "\f212";
+}
+
+/* line 1715, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sellsy:before {
+  content: "\f213";
+}
+
+/* line 1718, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-shirtsinbulk:before {
+  content: "\f214";
+}
+
+/* line 1721, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-simplybuilt:before {
+  content: "\f215";
+}
+
+/* line 1724, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-skyatlas:before {
+  content: "\f216";
+}
+
+/* line 1727, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cart-plus:before {
+  content: "\f217";
+}
+
+/* line 1730, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cart-arrow-down:before {
+  content: "\f218";
+}
+
+/* line 1733, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-diamond:before {
+  content: "\f219";
+}
+
+/* line 1736, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-ship:before {
+  content: "\f21a";
+}
+
+/* line 1739, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-user-secret:before {
+  content: "\f21b";
+}
+
+/* line 1742, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-motorcycle:before {
+  content: "\f21c";
+}
+
+/* line 1745, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-street-view:before {
+  content: "\f21d";
+}
+
+/* line 1748, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-heartbeat:before {
+  content: "\f21e";
+}
+
+/* line 1751, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-venus:before {
+  content: "\f221";
+}
+
+/* line 1754, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mars:before {
+  content: "\f222";
+}
+
+/* line 1757, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mercury:before {
+  content: "\f223";
+}
+
+/* line 1760, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-intersex:before,
+.fa-transgender:before {
+  content: "\f224";
+}
+
+/* line 1764, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-transgender-alt:before {
+  content: "\f225";
+}
+
+/* line 1767, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-venus-double:before {
+  content: "\f226";
+}
+
+/* line 1770, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mars-double:before {
+  content: "\f227";
+}
+
+/* line 1773, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-venus-mars:before {
+  content: "\f228";
+}
+
+/* line 1776, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mars-stroke:before {
+  content: "\f229";
+}
+
+/* line 1779, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mars-stroke-v:before {
+  content: "\f22a";
+}
+
+/* line 1782, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mars-stroke-h:before {
+  content: "\f22b";
+}
+
+/* line 1785, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-neuter:before {
+  content: "\f22c";
+}
+
+/* line 1788, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-genderless:before {
+  content: "\f22d";
+}
+
+/* line 1791, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-facebook-official:before {
+  content: "\f230";
+}
+
+/* line 1794, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-pinterest-p:before {
+  content: "\f231";
+}
+
+/* line 1797, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-whatsapp:before {
+  content: "\f232";
+}
+
+/* line 1800, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-server:before {
+  content: "\f233";
+}
+
+/* line 1803, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-user-plus:before {
+  content: "\f234";
+}
+
+/* line 1806, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-user-times:before {
+  content: "\f235";
+}
+
+/* line 1809, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hotel:before,
+.fa-bed:before {
+  content: "\f236";
+}
+
+/* line 1813, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-viacoin:before {
+  content: "\f237";
+}
+
+/* line 1816, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-train:before {
+  content: "\f238";
+}
+
+/* line 1819, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-subway:before {
+  content: "\f239";
+}
+
+/* line 1822, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-medium:before {
+  content: "\f23a";
+}
+
+/* line 1825, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-yc:before,
+.fa-y-combinator:before {
+  content: "\f23b";
+}
+
+/* line 1829, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-optin-monster:before {
+  content: "\f23c";
+}
+
+/* line 1832, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-opencart:before {
+  content: "\f23d";
+}
+
+/* line 1835, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-expeditedssl:before {
+  content: "\f23e";
+}
+
+/* line 1838, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-battery-4:before,
+.fa-battery-full:before {
+  content: "\f240";
+}
+
+/* line 1842, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-battery-3:before,
+.fa-battery-three-quarters:before {
+  content: "\f241";
+}
+
+/* line 1846, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-battery-2:before,
+.fa-battery-half:before {
+  content: "\f242";
+}
+
+/* line 1850, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-battery-1:before,
+.fa-battery-quarter:before {
+  content: "\f243";
+}
+
+/* line 1854, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-battery-0:before,
+.fa-battery-empty:before {
+  content: "\f244";
+}
+
+/* line 1858, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-mouse-pointer:before {
+  content: "\f245";
+}
+
+/* line 1861, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-i-cursor:before {
+  content: "\f246";
+}
+
+/* line 1864, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-object-group:before {
+  content: "\f247";
+}
+
+/* line 1867, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-object-ungroup:before {
+  content: "\f248";
+}
+
+/* line 1870, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sticky-note:before {
+  content: "\f249";
+}
+
+/* line 1873, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-sticky-note-o:before {
+  content: "\f24a";
+}
+
+/* line 1876, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-jcb:before {
+  content: "\f24b";
+}
+
+/* line 1879, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-cc-diners-club:before {
+  content: "\f24c";
+}
+
+/* line 1882, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-clone:before {
+  content: "\f24d";
+}
+
+/* line 1885, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-balance-scale:before {
+  content: "\f24e";
+}
+
+/* line 1888, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hourglass-o:before {
+  content: "\f250";
+}
+
+/* line 1891, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hourglass-1:before,
+.fa-hourglass-start:before {
+  content: "\f251";
+}
+
+/* line 1895, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hourglass-2:before,
+.fa-hourglass-half:before {
+  content: "\f252";
+}
+
+/* line 1899, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hourglass-3:before,
+.fa-hourglass-end:before {
+  content: "\f253";
+}
+
+/* line 1903, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hourglass:before {
+  content: "\f254";
+}
+
+/* line 1906, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-grab-o:before,
+.fa-hand-rock-o:before {
+  content: "\f255";
+}
+
+/* line 1910, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-stop-o:before,
+.fa-hand-paper-o:before {
+  content: "\f256";
+}
+
+/* line 1914, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-scissors-o:before {
+  content: "\f257";
+}
+
+/* line 1917, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-lizard-o:before {
+  content: "\f258";
+}
+
+/* line 1920, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-spock-o:before {
+  content: "\f259";
+}
+
+/* line 1923, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-pointer-o:before {
+  content: "\f25a";
+}
+
+/* line 1926, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-hand-peace-o:before {
+  content: "\f25b";
+}
+
+/* line 1929, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-trademark:before {
+  content: "\f25c";
+}
+
+/* line 1932, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-registered:before {
+  content: "\f25d";
+}
+
+/* line 1935, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-creative-commons:before {
+  content: "\f25e";
+}
+
+/* line 1938, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gg:before {
+  content: "\f260";
+}
+
+/* line 1941, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-gg-circle:before {
+  content: "\f261";
+}
+
+/* line 1944, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tripadvisor:before {
+  content: "\f262";
+}
+
+/* line 1947, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-odnoklassniki:before {
+  content: "\f263";
+}
+
+/* line 1950, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-odnoklassniki-square:before {
+  content: "\f264";
+}
+
+/* line 1953, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-get-pocket:before {
+  content: "\f265";
+}
+
+/* line 1956, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-wikipedia-w:before {
+  content: "\f266";
+}
+
+/* line 1959, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-safari:before {
+  content: "\f267";
+}
+
+/* line 1962, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-chrome:before {
+  content: "\f268";
+}
+
+/* line 1965, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-firefox:before {
+  content: "\f269";
+}
+
+/* line 1968, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-opera:before {
+  content: "\f26a";
+}
+
+/* line 1971, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-internet-explorer:before {
+  content: "\f26b";
+}
+
+/* line 1974, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-tv:before,
+.fa-television:before {
+  content: "\f26c";
+}
+
+/* line 1978, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-contao:before {
+  content: "\f26d";
+}
+
+/* line 1981, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-500px:before {
+  content: "\f26e";
+}
+
+/* line 1984, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-amazon:before {
+  content: "\f270";
+}
+
+/* line 1987, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-calendar-plus-o:before {
+  content: "\f271";
+}
+
+/* line 1990, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-calendar-minus-o:before {
+  content: "\f272";
+}
+
+/* line 1993, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-calendar-times-o:before {
+  content: "\f273";
+}
+
+/* line 1996, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-calendar-check-o:before {
+  content: "\f274";
+}
+
+/* line 1999, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-industry:before {
+  content: "\f275";
+}
+
+/* line 2002, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-map-pin:before {
+  content: "\f276";
+}
+
+/* line 2005, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-map-signs:before {
+  content: "\f277";
+}
+
+/* line 2008, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-map-o:before {
+  content: "\f278";
+}
+
+/* line 2011, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-map:before {
+  content: "\f279";
+}
+
+/* line 2014, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-commenting:before {
+  content: "\f27a";
+}
+
+/* line 2017, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-commenting-o:before {
+  content: "\f27b";
+}
+
+/* line 2020, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-houzz:before {
+  content: "\f27c";
+}
+
+/* line 2023, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-vimeo:before {
+  content: "\f27d";
+}
+
+/* line 2026, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-black-tie:before {
+  content: "\f27e";
+}
+
+/* line 2029, /home/mdautrey/.rvm/gems/ruby-2.2.1/gems/font-awesome-rails-4.4.0.0/app/assets/stylesheets/font-awesome.css.erb */
+.fa-fonticons:before {
+  content: "\f280";
+}
+
+/*
+	Strongly Typed by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+/* line 17, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+body {
+  background: #f0f0f0;
+}
+
+/* line 21, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+body.is-loading * {
+  -moz-transition: none !important;
+  -webkit-transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+  transition: none !important;
+  -moz-animation: none !important;
+  -webkit-animation: none !important;
+  -o-animation: none !important;
+  -ms-animation: none !important;
+  animation: none !important;
+}
+
+/* line 34, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+body, input, textarea, select {
+  font-family: 'Source Sans Pro';
+  font-weight: 300;
+  color: #777;
+}
+
+/* line 40, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #888;
+}
+
+/* line 46, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+.error {
+  color: red;
+}
+
+/* line 50, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+h3 {
+  color: #ed786a;
+}
+
+/* line 54, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: inherit;
+  text-decoration: none;
+  border: 0;
+}
+
+/* line 60, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+a {
+  color: #666;
+  text-decoration: none;
+  border-bottom: solid 1px #ddd;
+  -moz-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+  -o-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+  -ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+}
+
+/* line 71, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+a strong {
+  -moz-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+  -o-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+  -ms-transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out, border-bottom-color 0.25s ease-in-out;
+}
+
+/* line 79, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+a:hover {
+  color: #ed786a;
+  border-bottom-color: rgba(255, 255, 255, 0);
+}
+
+/* line 84, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+a:hover strong {
+  color: #ed786a;
+}
+
+/* line 88, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+strong, b {
+  font-weight: 600;
+  color: #666;
+}
+
+/* line 93, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+em, i {
+  font-style: italic;
+}
+
+/* line 97, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+sub {
+  position: relative;
+  top: 0.5em;
+  font-size: 0.8em;
+}
+
+/* line 103, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+sup {
+  position: relative;
+  top: -0.5em;
+  font-size: 0.8em;
+}
+
+/* line 109, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+hr {
+  border: 0;
+  border-top: solid 1px #ddd;
+}
+
+/* line 114, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+blockquote {
+  border-left: solid 0.5em #ddd;
+  padding: 1em 0 1em 2em;
+  font-style: italic;
+}
+
+/* line 120, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+p {
+  text-align: justify;
+}
+
+/* line 124, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+p, ul, ol, dl, table, blockquote {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* line 129, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+br.clear {
+  clear: both;
+}
+
+/* Sections/Article */
+/* line 135, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+section,
+article {
+  margin-bottom: 3em;
+}
+
+/* line 140, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+section > :last-child,
+article > :last-child {
+  margin-bottom: 0;
+}
+
+/* line 145, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+section:last-child,
+article:last-child {
+  margin-bottom: 0;
+}
+
+/* Image */
+/* line 152, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+.image {
+  display: inline-block;
+  border: solid 6px #ebebeb !important;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out;
+  -ms-transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.25s ease-in-out;
+}
+
+/* line 162, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+a.image:hover {
+  opacity: 0.9;
+}
+
+/* line 166, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+.image img {
+  display: block;
+  width: 100%;
+}
+
+/* line 171, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+.image.fit {
+  display: block;
+  width: 100%;
+}
+
+/* line 176, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+.image.featured {
+  display: block;
+  width: 100%;
+  margin: 1em 0 1em 0;
+}
+
+/* line 182, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+.image.left {
+  float: left;
+  margin: 0 1.5em 1.5em 0;
+  position: relative;
+  top: 0.5em;
+}
+
+/* line 189, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+.image.centered {
+  display: block;
+  margin: 0 0 2em 0;
+}
+
+/* line 194, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+.image.centered img {
+  margin: 0 auto;
+  width: auto;
+}
+
+/* List */
+/* line 204, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+ul.default {
+  list-style: disc;
+  margin-left: 1em;
+}
+
+/* line 209, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+ul.default li {
+  padding-left: 0.5em;
+  margin: 0.75em 0 0.75em 0;
+}
+
+/* line 214, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+ul.default li:first-child {
+  margin-top: 0;
+}
+
+/* line 218, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+ul.links {
+  list-style: decimal;
+  margin-left: 1em;
+}
+
+/* line 223, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+ul.links li {
+  display: inline;
+  border-left: solid 1px #d0d0d0;
+  padding-left: 1em;
+  margin-left: 1em;
+}
+
+/* line 230, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+ul.links li:first-child {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* line 235, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+ul.actions {
+  margin-top: 2.5em;
+  clear: both;
+}
+
+/* line 243, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+ul.divided li {
+  border-top: solid 2px #e5e5e5;
+}
+
+/* line 247, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+ul.divided li:first-child {
+  border-top: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 256, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+ul.icons > li {
+  position: relative;
+  padding: 2em 0 0 3em;
+}
+
+/* line 261, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+ul.icons > li:before {
+  position: absolute;
+  left: 0;
+  top: 2em;
+  display: block;
+  background: #878787;
+  color: #e4e4e4;
+  width: 1.65em;
+  height: 1.65em;
+  border-radius: 1.65em;
+  line-height: 1.65em;
+  text-align: center;
+  box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
+}
+
+/* line 276, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+ul.icons > li:first-child {
+  padding-top: 0;
+}
+
+/* line 280, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+ul.icons > li:first-child:before {
+  top: 0;
+}
+
+/* line 287, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+ol.default {
+  list-style: decimal;
+  margin-left: 1em;
+}
+
+/* line 292, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+ol.default li {
+  padding-left: 0.5em;
+  margin: 0.75em 0 0.75em 0;
+}
+
+/* line 297, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+ol.default li:first-child {
+  margin-top: 0;
+}
+
+/* Form */
+/* line 306, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+form label {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #888;
+  display: block;
+  margin: 0 0 1em 0;
+}
+
+/* line 314, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
+  -webkit-appearance: none;
+  display: block;
+  border: 0;
+  background: #e8e8e8;
+  width: 100%;
+  box-shadow: inset 2px 2px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  line-height: 1.25em;
+  padding: 0.75em 1em 0.75em 1em;
+  -moz-transition: background-color 0.25s ease-in-out;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  -o-transition: background-color 0.25s ease-in-out;
+  -ms-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+}
+
+/* line 335, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus,
+form select:focus,
+form textarea:focus {
+  background: #f0f0f0;
+}
+
+/* line 343, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+form textarea {
+  min-height: 11em;
+}
+
+/* line 347, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+form .formerize-placeholder {
+  color: #555 !important;
+}
+
+/* line 351, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+form ::-webkit-input-placeholder {
+  color: #555 !important;
+  line-height: 1.35em;
+}
+
+/* line 356, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+form :-moz-placeholder {
+  color: #555 !important;
+}
+
+/* line 360, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+form ::-moz-placeholder {
+  color: #555 !important;
+}
+
+/* line 364, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+form :-ms-input-placeholder {
+  color: #555 !important;
+}
+
+/* line 368, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+form ::-moz-focus-inner {
+  border: 0;
+}
+
+/* Table */
+/* line 373, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+table.intext td {
+  padding: 0.5em;
+  vertical-align: top;
+}
+
+/* line 378, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+table {
+  width: 100%;
+}
+
+/* line 382, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+table.default {
+  width: 100%;
+}
+
+/* line 386, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+table.default tbody tr {
+  border-top: solid 1px #E5E5E5;
+}
+
+/* line 390, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+table.default tbody tr:first-child {
+  border-top: 0;
+}
+
+/* line 394, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+table.default td {
+  padding: 0.75em 1em 0.75em 1em;
+}
+
+/* line 398, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+table.default th {
+  text-align: left;
+  font-weight: bold;
+  padding: 0.75em 1em 0.75em 1em;
+}
+
+/* line 404, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+table.default thead {
+  background: #878787;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  border: 0;
+  box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
+}
+
+/* line 413, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+table.default tfoot {
+  background: #F0F0F0;
+  border-top: solid 2px #E5E5E5;
+}
+
+/* Button */
+/* line 423, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.button {
+  -webkit-appearance: none;
+  position: relative;
+  display: inline-block;
+  background: #ed786a;
+  color: #fff !important;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 0;
+  outline: 0;
+  font-size: 1em;
+  box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
+  font-weight: 600;
+  -moz-transition: all 0.25s ease-in-out;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  text-align: center;
+}
+
+/* line 447, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+.button.icon:before {
+  position: relative;
+  padding-right: 0.75em;
+  opacity: 0.5;
+  top: 0.05em;
+}
+
+/* line 454, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+.button:hover {
+  background: #fd887a;
+}
+
+/* line 461, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+input[type="button"]:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+.button:active {
+  background: #ed786a;
+}
+
+/* line 468, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+input[type="button"].alt,
+input[type="submit"].alt,
+input[type="reset"].alt,
+.button.alt {
+  background: #878787;
+}
+
+/* line 475, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+input[type="button"].alt:hover,
+input[type="submit"].alt:hover,
+input[type="reset"].alt:hover,
+.button.alt:hover {
+  background: #979797;
+}
+
+/* line 482, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+input[type="button"].alt:active,
+input[type="submit"].alt:active,
+input[type="reset"].alt:active,
+.button.alt:active {
+  background: #878787;
+}
+
+/* Box */
+/* line 497, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+.box.excerpt .date {
+  background: #878787;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
+}
+
+/*********************************************************************************/
+/* Icons                                                                         */
+/*********************************************************************************/
+/* line 511, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+.icon {
+  position: relative;
+  text-decoration: none;
+}
+
+/* line 516, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+.icon:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+
+/* line 525, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+.icon > .label {
+  display: none;
+}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+/* line 533, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#header-wrapper {
+  position: relative;
+  background: #fff;
+  text-align: center;
+}
+
+/* line 539, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#header-wrapper p {
+  text-align: center;
+}
+
+/* line 543, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#banner-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: #878787;
+  color: #fff;
+  text-align: center;
+  border-top: solid 2px #e5e5e5;
+  border-bottom: solid 2px #e5e5e5;
+  box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5, inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
+}
+
+/* line 554, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#banner-wrapper .inner {
+  background: url("../images/banner.jpg");
+  background-size: cover;
+}
+
+/* line 559, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#banner-wrapper p {
+  text-align: center;
+}
+
+/* line 563, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#features-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  text-align: center;
+}
+
+/* line 570, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#features-wrapper p {
+  text-align: center;
+}
+
+/* line 574, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#features-wrapper .actions {
+  margin-top: 1.25em;
+}
+
+/* line 578, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#main-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+}
+
+/* line 584, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#footer-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-top: solid 2px #e5e5e5;
+  background: #f0f0f0;
+}
+
+/* line 591, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#footer-wrapper form input[type="text"],
+#footer-wrapper form input[type="email"],
+#footer-wrapper form input[type="password"],
+#footer-wrapper form select,
+#footer-wrapper form textarea {
+  background: #f7f7f7;
+}
+
+/* line 599, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#footer-wrapper form input[type="text"]:focus,
+#footer-wrapper form input[type="email"]:focus,
+#footer-wrapper form input[type="password"]:focus,
+#footer-wrapper form select:focus,
+#footer-wrapper form textarea:focus {
+  background: #fff;
+}
+
+/* line 607, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#footer-wrapper h2 {
+  text-align: center;
+}
+
+/* line 611, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#contact-wrapper {
+  position: relative;
+  overflow: hidden;
+  background: #f0f0f0;
+  padding: 0.5em;
+}
+
+/* line 618, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#contact-wrapper form input[type="text"],
+#contact-wrapper form input[type="email"],
+#contact-wrapper form input[type="password"],
+#contact-wrapper form select,
+#contact-wrapper form textarea {
+  background: #f7f7f7;
+}
+
+/* line 626, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#contact-wrapper form input[type="text"]:focus,
+#contact-wrapper form input[type="email"]:focus,
+#contact-wrapper form input[type="password"]:focus,
+#contact-wrapper form select:focus,
+#contact-wrapper form textarea:focus {
+  background: #fff;
+}
+
+/* line 634, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#contact-wrapper h2 {
+  text-align: center;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+/* line 642, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#header {
+  position: relative;
+  border-bottom: solid 2px #e5e5e5;
+  box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
+}
+
+/* line 648, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#header h1 {
+  font-family: 'Arvo';
+  font-weight: 700;
+  color: #ed786a;
+  text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+}
+
+/* line 655, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#header h1 a {
+  border: 0;
+}
+
+/* line 659, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#header p {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #888;
+}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+/* line 669, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#nav {
+  cursor: default;
+}
+
+/* line 676, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#nav > ul > li > a {
+  border: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #777;
+  outline: 0;
+}
+
+/* line 685, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#nav > ul > li > a:before {
+  display: inline-block;
+  background: #878787;
+  color: #e4e4e4;
+  width: 1.65em;
+  height: 1.65em;
+  border-radius: 1.65em;
+  line-height: 1.65em;
+  text-align: center;
+  box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
+  margin-right: 0.75em;
+  -moz-transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
+  -o-transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
+  -ms-transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out, background 0.25s ease-in-out;
+}
+
+/* line 703, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#nav > ul > li > a > span {
+  -moz-transition: color 0.25s ease-in-out;
+  -webkit-transition: color 0.25s ease-in-out;
+  -o-transition: color 0.25s ease-in-out;
+  -ms-transition: color 0.25s ease-in-out;
+  transition: color 0.25s ease-in-out;
+}
+
+/* line 719, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#nav > ul > li.active > a:before,
+#nav > ul > li:hover > a:before {
+  background: #ED786A;
+  color: #fff;
+}
+
+/* line 725, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#nav > ul > li.active > a > span,
+#nav > ul > li:hover > a > span {
+  color: #ED786A;
+}
+
+/*********************************************************************************/
+/* Features                                                                      */
+/*********************************************************************************/
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+/* line 741, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#banner {
+  position: relative;
+  text-transform: uppercase;
+}
+
+/* line 746, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#banner p {
+  font-weight: 400;
+}
+
+/* line 750, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#banner strong {
+  color: inherit;
+}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+/* line 761, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#content > section,
+#content > article {
+  border-top: solid 2px #e5e5e5;
+  box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
+}
+
+/* line 767, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#content > section:first-child,
+#content > article:first-child {
+  border-top: 0;
+  box-shadow: none;
+}
+
+/* line 773, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#content > article > ul {
+  list-style: disc;
+  padding-left: 3em;
+}
+
+/* line 778, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#content > article > ul > li > ul {
+  padding: 0;
+  margin: 0 0 0 2em;
+  list-style: circle;
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+/* line 791, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#sidebar > section,
+#sidebar > article {
+  border-top: solid 2px #e5e5e5;
+  box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
+}
+
+/* line 797, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#sidebar > section:first-child,
+#sidebar > article:first-child {
+  border-top: 0;
+  box-shadow: none;
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+/* line 807, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#copyright {
+  /*border-top: solid 2px #e5e5e5;*/
+  text-align: center;
+}
+
+/*********************************************************************************/
+/* contact																		*/
+/*********************************************************************************/
+/* line 815, /home/mdautrey/isitix/app/assets/stylesheets/style.scss */
+#contactform {
+  display: none;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

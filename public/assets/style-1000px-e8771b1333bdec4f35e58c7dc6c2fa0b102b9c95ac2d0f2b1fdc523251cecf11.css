@@ -1,0 +1,108 @@
+/*style-1000px.scss*/
+/*
+	Strongly Typed by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+/* line 13, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+body {
+  min-width: 960px;
+}
+
+/* line 17, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+body, input, textarea, select {
+  line-height: 1.5em;
+  /* 1.75 */
+  font-size: 12pt;
+}
+
+/* line 22, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+h2 {
+  margin-top: 1em;
+  font-size: 2em;
+}
+
+/* line 27, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+h3 {
+  margin-top: 1em;
+}
+
+/* line 31, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+h2 br, h3 br, h4 br, h5 br, h6 br {
+  display: none;
+}
+
+/* Image */
+/* line 40, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+.image.featured {
+  margin: 0 0 1.5em 0;
+}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+/* line 51, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#features-wrapper {
+  padding: 3em 0 3em 0;
+}
+
+/* line 55, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#banner-wrapper {
+  padding: 2em 0 2em 0;
+}
+
+/* line 59, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#main-wrapper {
+  padding: 1em 0 4em 0;
+}
+
+/* line 63, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#footer-wrapper {
+  padding: 3em 0 6em 0;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+/* line 71, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#header {
+  padding: 7em 0 3em 0;
+}
+
+/* line 75, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#header h1 {
+  font-size: 2em;
+}
+
+/* line 79, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#header p {
+  margin-bottom: 1em;
+}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+/* line 90, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#nav > ul > li {
+  padding-right: 1.25em;
+}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+/* line 98, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#banner {
+  padding: 2em 0 2em 0;
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+/* line 106, /home/mdautrey/isitix/app/assets/stylesheets/style-1000px.scss */
+#copyright {
+  margin-top: 1em;
+  padding-top: 1em;
+}

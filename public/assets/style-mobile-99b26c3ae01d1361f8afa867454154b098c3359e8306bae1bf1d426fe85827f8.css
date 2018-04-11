@@ -1,0 +1,354 @@
+/*style-mobile.scss*/
+/*
+	Strongly Typed by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+/* line 13, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+body, input, textarea, select {
+  line-height: 1.75em;
+  font-size: 11pt;
+  letter-spacing: 0;
+}
+
+/* line 24, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+h2, h3, h4, h5, h6 {
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 0 0 1.5em 0;
+}
+
+/* line 32, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+h2 br, h3 br, h4 br, h5 br, h6 br {
+  display: none;
+}
+
+/* Sections/Article */
+/* line 39, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+section,
+article {
+  clear: both;
+  margin: 2em 0 2em 0 !important;
+}
+
+/* line 46, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+section > :first-child,
+article > :first-child {
+  margin-top: 0 !important;
+}
+
+/* line 52, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+section:first-child,
+article:first-child {
+  margin-top: 0 !important;
+}
+
+/* Image */
+/* line 64, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+.image.left {
+  width: 40%;
+}
+
+/* line 69, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+.image.featured {
+  margin: 0 0 2em 0;
+}
+
+/* Button */
+/* line 76, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+.button {
+  letter-spacing: 2px;
+  display: block;
+  padding: 1em 0 1em 0;
+}
+
+/* List */
+/* line 92, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+ul.links li {
+  display: block;
+  border: 0;
+  padding: 0.25em 0 0 0;
+  margin: 0;
+}
+
+/* line 104, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+ul.divided li {
+  margin: 2.75em 0 0 0;
+  padding: 2.75em 0 0 0;
+}
+
+/* line 110, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+ul.icons {
+  padding: 0 !important;
+  margin: 0 0 0.5em 0 !important;
+}
+
+/* Box */
+/* line 126, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+.box-excerpt .date {
+  display: block;
+  letter-spacing: 2px;
+  padding: 0.25em 1em 0.25em 1em;
+  margin: 0 auto 2.5em auto;
+  text-align: center;
+}
+
+/*********************************************************************************/
+/* UI                                                                            */
+/*********************************************************************************/
+/* line 143, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#titleBar .toggle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 80px;
+  height: 60px;
+}
+
+/* line 152, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#titleBar .toggle:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: '\f0c9';
+  display: block;
+  width: 60px;
+  height: 40px;
+  background: rgba(232, 232, 232, 0.9);
+  border-radius: 4px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  box-shadow: 0.125em 0.125em 0 0 rgba(0, 0, 0, 0.15);
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  color: #aaa;
+}
+
+/* line 178, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#titleBar .toggle:active:before {
+  opacity: 0.5;
+}
+
+/* line 183, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel {
+  background: #444;
+  border-right: solid 2px #3c3c3c;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #888;
+  letter-spacing: 2px;
+  font-size: 0.85em;
+}
+
+/* line 194, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel .link {
+  display: block;
+  color: #ddd;
+  text-decoration: none;
+  height: 44px;
+  line-height: 44px;
+  border: 0;
+  border-top: solid 1px #3c3c3c;
+  padding: 0 1em 0 1em;
+}
+
+/* line 206, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel .link:first-child {
+  border-top: 0;
+}
+
+/* line 211, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel .link.depth-0 {
+  font-weight: 600;
+  color: #fff;
+}
+
+/* line 217, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel .indent-1 {
+  display: inline-block;
+  width: 1em;
+}
+
+/* line 218, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel .indent-2 {
+  display: inline-block;
+  width: 2em;
+}
+
+/* line 219, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel .indent-3 {
+  display: inline-block;
+  width: 3em;
+}
+
+/* line 220, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel .indent-4 {
+  display: inline-block;
+  width: 4em;
+}
+
+/* line 221, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel .indent-5 {
+  display: inline-block;
+  width: 5em;
+}
+
+/* line 222, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#navPanel .depth-0 {
+  color: #fff;
+}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+/* line 228, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#header-wrapper {
+  padding: 0 20px 0 20px;
+}
+
+/* line 233, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#features-wrapper {
+  padding: 2em 20px 2em 20px;
+}
+
+/* line 238, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#banner-wrapper {
+  padding: 2em 0 2em 0;
+}
+
+/* line 243, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#main-wrapper {
+  padding: 3em 20px 3em 20px;
+}
+
+/* line 248, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#footer-wrapper {
+  padding: 4em 20px 3em 20px;
+}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+/* line 257, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#header {
+  padding: 6em 0 4em 0;
+}
+
+/* line 262, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#header h1 {
+  font-size: 2em;
+  letter-spacing: 8px;
+  line-height: 1.25em;
+}
+
+/* line 269, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#header p {
+  margin: 1.25em 0 0 0;
+  letter-spacing: 2px;
+}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+/* line 279, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#nav {
+  display: none;
+}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+/* line 288, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#banner {
+  padding: 5em 20px 5em 20px;
+  margin: 0 !important;
+}
+
+/* line 294, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#banner p {
+  font-size: 1.75em;
+  line-height: 1.25em;
+  letter-spacing: 3px;
+}
+
+/* line 301, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#banner p br {
+  display: none;
+}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+/* line 314, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#content > section,
+#content > article {
+  margin: 4em 0 0 0 !important;
+  padding: 4em 0 0 0 !important;
+}
+
+/* line 321, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#content > section:first-child,
+#content > article:first-child {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+/* line 332, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#sidebar {
+  border-top: solid 2px #e5e5e5;
+  box-shadow: inset 0px 8px 0px 0px #fff, inset 0px 10px 0px 0px #e5e5e5;
+  margin-top: 4em !important;
+  padding-top: 4em !important;
+}
+
+/* line 340, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#sidebar > section,
+#sidebar > article {
+  margin: 4em 0 0 0 !important;
+  padding: 4em 0 0 0 !important;
+}
+
+/* line 347, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#sidebar > section:first-child,
+#sidebar > article:first-child {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+/* line 362, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#footer .icons {
+  margin: 0 0 2em 0 !important;
+}
+
+/* line 367, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#footer .icons:last-child {
+  margin-bottom: 0;
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+/* line 376, /home/mdautrey/isitix/app/assets/stylesheets/style-mobile.scss */
+#copyright {
+  margin-top: 1em;
+  padding-top: 1em;
+}

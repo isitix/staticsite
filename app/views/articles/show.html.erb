@@ -9,17 +9,17 @@
                 <!-- Post -->
                 <article class="box post">
                     <header>
-                        <h2 id="technologie"><%= @article.title %></h2>
+                        <h2 id="technologie"><%= t(@article.title) %></h2>
                     </header>
                     <span class="image featured"><%= image_tag(@article.first_picture) %></span>
-                    <%= @article.big_content.html_safe %>
+                    <%= t(@article.big_content).html_safe %>
                     <% @article.articles.select { |a| a[:visibility] }.each do |article2| %>
-                        <h3><%= article2.title %></h3>
-                        <%= article2.big_content.html_safe %>
+                        <h3><%= t(article2.title) %></h3>
+                        <%= t(article2.big_content).html_safe %>
                         <% if article2.articles.count > 0 %>
                             <% article2.articles.select { |a| a[:visibility] }.each do |article3| %>
-                                <h4><%= article3.title %></h4>
-                                <%= article3.big_content.html_safe %>
+                                <h4><%= t(article3.title) %></h4>
+                                <%= t(article3.big_content).html_safe %>
                             <% end %>
                         <% end %>
                     <% end %>
