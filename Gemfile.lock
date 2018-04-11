@@ -164,6 +164,7 @@ DEPENDENCIES
   debase
   figaro
   font-awesome-rails (~> 4.4)
+  i18n
   jbuilder (~> 2.0)
   jquery-rails
   pg
@@ -181,4 +182,4 @@ RUBY VERSION
    ruby 2.2.4p230
 
 BUNDLED WITH
-   1.13.7
+   1.16.0

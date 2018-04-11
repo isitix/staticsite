@@ -1,9 +1,9 @@
 Article.seed do |s|
   s.id = 36
-  s.title = 'FAQ'
+  s.title = 'faq'
   s.small_picture = 'question_small.jpg'
   s.first_picture = 'question_first.jpg'
-  s.small_content = 'Les questions que nos clients nous posent le plus fréquemment...'
+  s.small_content = 'faq_small_content'
   s.big_content = "<h3>Quel est le contenu de
 l’offre ISITIX ?</h3>
 <p>Nous proposons à nos clients un portefeuille de prestations de Conseil et d’Expertise Technique.</p>

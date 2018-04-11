@@ -2,11 +2,11 @@
     <section>
         <%= link_to image_tag(article.small_picture), article, class: "image featured" %>
         <header>
-            <h3><%= article.title %></h3>
+          <h3><%= t(article.title) %></h3>
         </header>
         <p>
-        <%= article.small_content %>
+          <%= t(article.small_content) %>
         </p>
-        <%= link_to 'Lire la suite...', article, class: "button icon fa-plus-circle" %>
+      <%= link_to t('read_more'), article, class: "button icon fa-plus-circle" %>
     </section>
 </div>

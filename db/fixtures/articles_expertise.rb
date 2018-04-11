@@ -1,10 +1,9 @@
 Article.seed do |s|
   s.id = 23
-  s.title = "Domaine d'expertise"
+  s.title = "expertise"
   s.small_picture = 'expertise_small.jpg'
   s.first_picture = 'expertise_first.jpg'
-  s.small_content = "Nous disposons d'une très forte expertise sur les problématiques de sauvegarde, de stockage
-et d'infrastructure big data"
+  s.small_content = 'expertise_small_content'
   s.big_content = "
 <p>Au-delà d'une compétence d'ensemble du système d'information acquise au fil des missions, nous disposons et nous poursuivons le développement d'une très forte expertise sur les problématiques de sauvegarde, de stockage
 et d'infrastructure big data  :

@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="1804889178">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
     <data-source source="LOCAL" name="Rails isitix: development" uuid="cbc4d7b4-83ed-432b-bebf-487d151d841d">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:isitix_development</jdbc-url>
-      <libraries />
+      <jdbc-url>jdbc:postgresql://127.0.0.1/isitix_development</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="Rails isitix: test" uuid="7880df45-ed88-41e4-8191-f87b309d3ef8">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:isitix_test</jdbc-url>
-      <libraries />
+      <jdbc-url>jdbc:postgresql://127.0.0.1/isitix_test</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="Rails isitix: production" uuid="8d6f1c0d-63a8-41ad-9828-4fb5851270de">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:isitix_production</jdbc-url>
-      <libraries />
     </data-source>
   </component>
 </project>

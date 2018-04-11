@@ -1,10 +1,10 @@
 # see https://github.com/mbleigh/seed-fu
 Article.seed do |s|
   s.id = 1
-  s.title = 'Société'
+  s.title = 'company'
   s.small_picture = 'societe_small.jpg'
   s.first_picture = 'societe_first.jpg'
-  s.small_content = "Fondée en 2002, ISITIX développe une activité de conseil et d'expertise dans le domaine des infrastructures"
+  s.small_content = 'company_small_content'
   s.big_content = "ISITIX propose à ses clients un portefeuille de prestations de Conseil et d’Expertise Technique.
 Nos interventions couvrent l’ensemble des systèmes et logiciels entre la couche matérielle et la couche
 applicative du SI."
@@ -14,11 +14,10 @@ applicative du SI."
 end
 Article.seed do |s|
   s.id = 2
-  s.title = 'Notre équipe'
+  s.title = 'team'
   s.small_picture = 'equipe_small.jpg'
   s.first_picture = 'equipe_first.jpg'
-  s.small_content = "Notre équipe réunit des consultants ayant accumulé expérience et expertise en mêlant
-les postes opérationnels et les missions de consultants."
+  s.small_content = 'team_small_content'
   s.big_content = "<p>Notre équipe est constituée à 100% d’indépendants.</p>
 <p><a href='mailto:mickael.dautrey@isitix.com'>Mikaël Dautrey</a> (X-Telecom master en mathématiques appliquées, associé gérant)
 assure le suivi commercial et contractuel des clients, ainsi que l'expertise en gestion de projet,
@@ -39,10 +38,10 @@ et tenir compte des objectifs et contraintes de la  DSI et de  la Direction Gén
 end
 Article.seed do |s|
   s.id = 3
-  s.title = 'Historique'
+  s.title = 'history'
   s.small_picture = 'historique_small.jpg'
   s.first_picture = 'historique_first.jpg'
-  s.small_content = 'Fondée en 2002, ISITIX développe une activité de conseil...'
+  s.small_content = 'history_small_content'
   s.big_content = '
 <p>Fondée en 2002 par Mikaël Dautrey et Véronique de Beaufort,
 ISITIX a d’abord mené des missions de conseil généralistes dans le domaine des SI et de l’organisation.
@@ -70,10 +69,10 @@ et innovant à nos clients dans le domaine des infrastructures et des projets in
 end
 Article.seed do |s|
   s.id = 4
-  s.title = 'Localisation'
+  s.title = 'location'
   s.small_picture = 'localisation_small.jpg'
   s.first_picture = 'localisation_first.jpg'
-  s.small_content = "Nous sommes basés dans l'Ouest de la France..."
+  s.small_content = 'location_small_content'
   s.big_content = '
 <p>Notre siège social est situé dans les Côtes d’Armor, à Perros-Guirec. Nous disposons de bureaux à Rennes,
 Vannes et Paris. Notre zone d’intervention actuelle couvre les régions Ouest et Sud-Ouest,
@@ -84,10 +83,10 @@ l’Ile de France, Provence-Côte d’Azur, le Royaume-Uni la Suisse, la Roumani
 end
 Article.seed do |s|
   s.id = 5
-  s.title = 'Quelques chiffres'
+  s.title = 'figures'
   s.small_picture = 'chiffres_small.jpg'
   s.first_picture = 'chiffres_first.jpg'
-  s.small_content = 'Plus de 280 missions réalisées dans 70 sociétés : depuis notre fondation nous avons ...'
+  s.small_content = 'figures_small_content'
   s.big_content = "<p>Depuis la fondation d’ISITIX, la société a réalisé :</p>
 <ul>
 <li>280 missions pour 70 clients finaux</li>
@@ -100,10 +99,10 @@ Article.seed do |s|
 end
 Article.seed do |s|
   s.id = 6
-  s.title = 'Missions réalisées'
+  s.title = 'achievements'
   s.small_picture = 'missions_small.jpg'
   s.first_picture = 'missions_first.jpg'
-  s.small_content = 'Nos interventions couvrent l’ensemble des systèmes et logiciels entre la couche matérielle et la couche applicative du SI...'
+  s.small_content = 'achievements_small_content'
   s.big_content = "<p>Quelques missions réalisées :
 <ul>
 <li>AMOA pour la définition d’une offre

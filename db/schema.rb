@@ -11,33 +11,34 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151216131748) do
+ActiveRecord::Schema.define(version: 20180409162306) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "articles", force: true do |t|
-    t.string   "title"
-    t.string   "small_picture"
-    t.string   "keywords"
+  create_table "articles", force: :cascade do |t|
+    t.string "title", limit: 255
+    t.string "small_picture", limit: 255
+    t.string "keywords", limit: 255
     t.text     "small_content"
     t.text     "big_content"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string   "first_picture"
+    t.string "first_picture", limit: 255
     t.integer "article_id", default: 0
     t.integer "priority", default: 1
     t.boolean "visibility", default: true
-    t.string "icon"
+    t.string "icon", limit: 255
     t.integer "article_id_id"
+    t.string "language", default: "FR"
   end
 
-  create_table "contacts", force: true do |t|
-    t.string   "name"
-    t.string   "company"
-    t.string   "phone"
-    t.string   "email"
-    t.string   "content"
+  create_table "contacts", force: :cascade do |t|
+    t.string "name", limit: 255
+    t.string "company", limit: 255
+    t.string "phone", limit: 255
+    t.string "email", limit: 255
+    t.string "content", limit: 255
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

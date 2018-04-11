@@ -1,44 +1,22 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-en:
-  # divers textes statiques du site
-  #
-  read_more: "Read more..."
-  page_title: "ISITIX, partner of your IT infrastructure"
-  title: "An independent IT consulting firm"
-  motto: "A team of senior IT practicioners committed to the success of your projects"
-  motto2: "We offer independent, operational, pragmatic IT consulting services"
+fr:
+  read_more: "Lire la suite..."
+  page_title: "Cabinet de conseil IT indépendant"
+  title: "Cabinet de conseil IT indépendant"
+  motto: "Une équipe de consultants seniors qui vous apporte une forte plus-value dans vos projets"
+  motto2: "Nous vous conseillons avec pragmatisme en toute indépendance."
 
   # formulaire de contact
-  name: "Name"
+  name: "Nom"
   email: "Email"
-  company: "Company"
-  phone: "Phone number"
-  message: "Comment"
-  send: "Send"
-  error: "Thank you for correcting the errors in the form below:"
-  cancel: "Cancel"
-  contact_us: "Contact us"
-  head_office: "Head office"
-  copyright__html: "&copy; ISITIX. All rights reserved."
+  company: "Société"
+  phone: "Téléphone"
+  message: "Message"
+  send: "Envoyer"
+  error: "Votre demande de contact comporte des erreurs :"
+  cancel: "Annuler"
+  contact_us: "Nous contacter"
+  head_office: "Siège social"
+  copyright__html: "&copy; ISITIX. Tous droits réservés."
 
   #
   # Articles
@@ -64,26 +42,26 @@ en:
   articles: "Articles"
   hyperconverged: "Infrastructures hyperconvergées"
   san_protocol: "Quel protocole pour le SAN?"
+
   # Small content
   # Société
   company_small_content: "Fondée en 2002, ISITIX développe une activité de conseil et d'expertise dans le domaine des infrastructures"
-  team_small_content: "Notre équipe réunit des consultants ayant accumulé expérience et expertise en mêlant
-  les postes opérationnels et les missions de consultants."
   history_small_content: "Fondée en 2002, ISITIX développe une activité de conseil..."
   location_small_content: "Nous sommes basés dans l'Ouest de la France..."
   figures_small_content: 'Plus de 280 missions réalisées dans 70 sociétés : depuis notre fondation nous avons ...'
   achievements_small_content: "Nos interventions couvrent l’ensemble des systèmes et logiciels entre la couche matérielle et la couche applicative du SI..."
 
   # Offre
-  offre_small_content: "L'offre d'ISITIX couvre l'ensemble des problématiques d'infrastructure, depuis l'audit, la vérification   ou la mise à niveau de vos plans de sauvegarde jusqu'à l'organisation de l'évolution de votre datacenter pour
-  accueillir des applications big data ou l'ouvrir vers les solutions cloud."
-  consulting_small_content: "ISITIX couvre l'ensemble des problématiques d'infrastructure, depuis l'audit, la vérification
+  offre_small_content: "L'offre d'ISITIX couvre l'ensemble des problématiques d'infrastructure, depuis l'audit, la vérification
   ou la mise à niveau de vos plans de sauvegarde jusqu'à l'organisation de l'évolution de votre datacenter pour
   accueillir des applications big data ou l'ouvrir vers les solutions cloud."
-  integration_small_content: "ISITIX couvre l'ensemble des problématiques d'infrastructure, depuis l'audit, la vérification
-  ou la mise à niveau de vos plans de sauvegarde jusqu'à l'organisation de l'évolution de votre datacenter pour
+  consulting_small_content: "ISITIX couvre l'ensemble des problématiques d'infrastructure, depuis l'audit, la vérification 
+  ou la mise à niveau de vos plans de sauvegarde jusqu'à l'organisation de l'évolution de votre datacenter pour 
   accueillir des applications big data ou l'ouvrir vers les solutions cloud."
-  partners_small_content: "La liste des technologies sur lesquels nous avons une expérience significative, et des
+  integration_small_content: "ISITIX couvre l'ensemble des problématiques d'infrastructure, depuis l'audit, la vérification 
+  ou la mise à niveau de vos plans de sauvegarde jusqu'à l'organisation de l'évolution de votre datacenter pour 
+  accueillir des applications big data ou l'ouvrir vers les solutions cloud."
+  partners_small_content: "La liste des technologies sur lesquels nous avons une expérience significative, et des 
   partenariats avec des fournisseurs de technologie"
 
   # FAQ
