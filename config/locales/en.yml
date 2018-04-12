@@ -114,25 +114,17 @@ en:
   <p>Véronique de Beaufort (MS in mathematics, associate) provides an external perspective on finances and management.</p>
   <p>Our consultants are seasoned IT practicioners who can both troubleshoot very difficult technical problems and discuss with your CIO or DO about the impact of technology on your company's strategy.</p>
   "
-  history__html: "<p>Founded in 2002 by Mikaël Dautrey and Véronique de Beaufort,
-  ISITIX a d’abord mené des missions de conseil généralistes dans le domaine des SI et de l’organisation.
-  Nous étions alors surtout présents dans les grands groupes, en sous-traitance de SSII tiers-one.</p>
-  <p>A partir des années 2004-2005, une part importante de notre activité a consisté à gérer des projets
-  de déploiement de Téléphonie IP, avec un nombre important de missions dans le domaine des centres d’appels
-  et de la relation client. Notre offre s’est ensuite développée dans deux directions : </p>
+  history__html: "<p>Founded in 2002 by Mikaël Dautrey and Véronique de Beaufort, ISITIX initially conducted general
+  consulting missions in the field of IT and organization.</p>
+  <p>During the years 2004-2007, a significant part of our activity consisted in managing IP Telephony Deployment projects mainly for call centers
+  and CRM services. We renewed our offer to address new markets:</p>
   <ul>
-  <li>Couverture plus large des infrastructures, réseau, serveur, datacenter d’une part,</li>
-  <li>Solutions de Business Intelligence, reporting, ETL d’autre part.</li>
+  <li>Infrastructure, network, server, datacenter consultancy</li>
+  <li>Business Intelligence, reporting, ETL solutions integration built upon open source solutions such as Pentaho</li>
   </ul>
-  <p>Cette évolution nous a permis de développer une clientèle plus large et plus diversifiée,
-  et d’intéresser des PME, des ETI, des startups et des fonds d’investissement à notre savoir-faire.
-  Nous avons participé au démarrage de 2 sociétés, qui représentent chacune une dizaine de millions d’Euros
-  de chiffre d’affaires. Les mid-cap détenus par des investisseurs et des sociétés privées avec des taux de croissance
-  élevés constituent encore aujourd’hui une part importante de notre portefeuille de clients.</p>
-  <p>Le renforcement de l’équipe par des compétences dans le domaine serveur/stockage/virtualisation en 2014 et une montée
-  en compétence dans le domaine du Big Data nous ont conduits à repackager notre offre pour proposer un service cohérente
-  et innovant à nos clients dans le domaine des infrastructures et des projets innovants, cloud et big data.
-  </p>"
+  <p> Strengthening the team with skills in the server / storage / virtualization area in 2014 and
+  expertise in the field of Big Data led us to offer a consistent and innovative bunch of services to our customers in
+  the field of infrastructure, cloud and big data.</p>"
   location__html: "<p>Our head office is located in <a href='https://www.invest-in-bretagne.org/' target='_blank'>Brittany</a>, one hour and a half from Paris and Roissy Airport by train,
   and one hour flight from London and Dublin (<a href='https://flights.ryanair.com/en-gb/flights-to-dinard' target='_blank'>low cost flights to Dinard</a>,
   regular flights to <a href='https://www.brest.aeroport.bzh/en_US/accueil' target='_blank'>Brest</a>, and <a href='https://www.rennes.aeroport.fr/en/' target='_blank'>Rennes</a>. </p>
@@ -202,8 +194,9 @@ en:
   <p> Our mode of intervention favors light, focused teams, systematically working collaboratively with our customers and their ecosystem. </ p>"
 
   # Expertise
-  expertise__html: "<p>Beyond the amassed know-how about both traditional and more recent infrastructures over our commitments to our customers projets,
-  we keep pace with the continual evolution of technologies: <ul><li>Hybrid architecture with cloud and on-premise assets</li>
+  expertise__html: "<p>Beyond the amassed know-how about both traditional and more recent infrastructures over our customers projects,
+  we keep pace with the continual evolution of technologies:
+  <ul><li>Hybrid architecture with cloud and on-premise assets</li>
   <li>Containerization and migration from legacy to containerized applications</ li><li>Service orchestration and distributed clusters</li>
   <li>Backup of non-stopping distributed datastore</li>
   <li>SD-LAN in the datacenter</li>
