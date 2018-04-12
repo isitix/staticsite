@@ -43,15 +43,15 @@ en:
   copyright__html: "&copy; ISITIX. All rights reserved."
 
   # Erreurs dans le formulaire de contact
-  name_error: "Merci d'indiquer votre nom"
-  company_error: "Merci d'indiquer votre société"
-  email_error: "Merci d'indiquer votre Email"
-  name_length_error: "Le nom ne doit pas comporter plus de 128 caractères"
-  company_length_error: "Le champ société ne doit pas comporter plus de 128 caractères"
-  email_length_error: "L'email ne doit pas comporter plus de 128 caractères"
-  phone_length_error: "Le numéro de téléphone ne doit pas comporter plus de 128 caractères"
-  message_length_error: "Le message ne doit pas comporter plus de 1000 caractères"
-  email_format_error: "Le format de votre adresse email est incorrect"
+  name_error: "Please, fill in your name"
+  company_error: "Please, fill in your organization name"
+  email_error: "Please, fill in your email address"
+  name_length_error: "Sorry, but your name must be less than 120 characters length"
+  company_length_error: "Sorry, but your organization name must be less than 120 characters length"
+  email_length_error: "Sorry, but your email must be less than 120 characters length"
+  phone_length_error: "Sorry, but your phone number must be less than 120 characters length"
+  message_length_error: "Sorry, but your name must be less than 1000 characters length"
+  email_format_error: "Your email address is not in a correct format"
 
 
   #
@@ -68,7 +68,7 @@ en:
   # Offre
   offer: "Service offering"
   consulting: "Consulting service"
-  integration: "IT integration and change management"
+  integration: "Big data and cloud integration"
   partners: "Partners"
   # FAQ
   faq: "FAQ"
@@ -80,58 +80,41 @@ en:
   san_protocol: "An overview of SAN protocols"
   # Small content
   # Société
-  company_small: "Fondée en 2002, ISITIX développe une activité de conseil et d'expertise dans le domaine des infrastructures"
-  team_small: "Notre équipe réunit des consultants ayant accumulé expérience et expertise en mêlant
-  les postes opérationnels et les missions de consultants."
-  history_small: "Fondée en 2002, ISITIX développe une activité de conseil..."
-  location_small: "Nous sommes basés dans l'Ouest de la France..."
-  figures_small: 'Plus de 280 missions réalisées dans 70 sociétés : depuis notre fondation nous avons ...'
-  achievements_small: "Nos interventions couvrent l’ensemble des systèmes et logiciels entre la couche matérielle et la couche applicative du SI..."
+  company_small: "Incorporated in 2002, ISITIX offers services and support to design, build, deploy and manage IT infrastructures"
+  team_small: "Our organization gathers together seasoned consultants with top professional experience both in operational positions and in support and consulting missions."
+  history_small: "Incorporated in 2002, ISITIX offers services and support to design, build, deploy and manage IT infrastructures"
+  location_small: "Our head office is located in Western France..."
+  figures_small: 'More than 280 missions carried out in 70 companies: since our foundation we have ...'
+  achievements_small: "Our service offering covers the whole technology stack from hardware to middelware..."
 
   # Offre
-  offer_small: "L'offre d'ISITIX couvre l'ensemble des problématiques d'infrastructure, depuis l'audit, la vérification   ou la mise à niveau de vos plans de sauvegarde jusqu'à l'organisation de l'évolution de votre datacenter pour
-  accueillir des applications big data ou l'ouvrir vers les solutions cloud."
-  consulting_small: "ISITIX couvre l'ensemble des problématiques d'infrastructure, depuis l'audit, la vérification
-  ou la mise à niveau de vos plans de sauvegarde jusqu'à l'organisation de l'évolution de votre datacenter pour
-  accueillir des applications big data ou l'ouvrir vers les solutions cloud."
-  integration_small: "ISITIX couvre l'ensemble des problématiques d'infrastructure, depuis l'audit, la vérification
-  ou la mise à niveau de vos plans de sauvegarde jusqu'à l'organisation de l'évolution de votre datacenter pour
-  accueillir des applications big data ou l'ouvrir vers les solutions cloud."
-  partners_small: "La liste des technologies sur lesquels nous avons une expérience significative, et des
-  partenariats avec des fournisseurs de technologie"
+  offer_small: "We can assist you in your strategic IT projects, from securing your backup plan to making your infrastructure big data and containters ready."
+  consulting_small: "ISITIX brings you its expertise to audit your existing infrastructure, define your migration path to containerization or cloudification, update your operation processes..."
+  integration_small: "ISITIX assists you in the design and the implementation of your big data, cloud and containers architecture..."
+  partners_small: "Technologies on which we have significant experience, and partnerships with technology leaders"
 
   # FAQ
-  faq_small: 'Les questions que nos clients nous posent le plus fréquemment...'
+  faq_small: 'Questions that our customers ask us most frequently ...'
 
   # Expertise
-  expertise_small: "Nous disposons d'une très forte expertise sur les problématiques de sauvegarde, de stockage
-  et d'infrastructure big data"
+  expertise_small: "We develop strong skills on big data architecture, deployment, performance tuning, backup and recovery,... "
 
   # Actualites
-  articles_small: "Big data, cloud, évolution des offres, quelques mots sur l'actualité"
-  hyperconverged_small: "Depuis quelques temps, les infrastructures dites 'hyperconvergées', font une arrivée remarquée sur le
-  marché de l'IT."
-  san_protocol_small: "Depuis l’émergence du iSCSi dans les Datacenters, le choix du protocole de transport en alternative
-  au Fibre Channel au niveau SAN est un débat récurrent."
+  articles_small: "The hottest topics about big data, cloud, and more"
+  hyperconverged_small: "Hyperconverged infrastructures make a remarkable growth"
+  san_protocol_small: "Since iSCSI entered the datacenter, choosing an alternative to Fiber Channel is a recurring question."
   
   # Big content
   # Société
-  company__html:  "<p>Notre équipe est constituée à 100% d’indépendants.</p>
-  <p><a href='mailto:mickael.dautrey@isitix.com'>Mikaël Dautrey</a> (X-Telecom master en mathématiques appliquées, associé gérant)
-  assure le suivi commercial et contractuel des clients, ainsi que l'expertise en gestion de projet,
-  gestion des données (base de données, big data, business intelligence), en organisation et en sécurité.</p>
-  <p>
-  Une équipe de consultants indépendants et de partenaires
-  apporte son expertise sur les serveurs, la virtualisation, le stockage et
-  sa gestion (optimisation, performance, sauvegarde), les LAN datacenter, et l'organisation de la disponibilité
-  et de la continuité (PRI/PCI)</p>
-  <p>Véronique de Beaufort (master en mathématiques pures, associée) apporte un regard extérieur sur la gestion de l'activité et les
-  finances</p>
-  <p>Nous réunissons des profils rares en termes  de séniorité, d’expertise, et d’expérience opérationnelle, qui peuvent
-  à la fois analyser les aspects les plus techniques de votre projet
-  et tenir compte des objectifs et contraintes de la  DSI et de  la Direction Générale.</p>
+  company__html:  "<p><a href='mailto:mickael.dautrey@isitix.com'>Mikaël Dautrey</a> (X-Telecom, MS in applied mathematics, associate)
+  is responsible for business development and brings his know-how in the fields of IT project management. His main fields of interest include data management and processing,
+  security and software defined anything.</p>
+  <p>Our consulting team includes people with a strong background in:
+  <ul><li>Servers and virtualization</li><li>Backup and recovery tools</li><li>Business continuity and DRP</li><li>SD Lan and Wan</li></ul>
+  <p>Véronique de Beaufort (MS in mathematics, associate) provides an external perspective on finances and management.</p>
+  <p>Our consultants are seasoned IT practicioners who can both troubleshoot very difficult technical problems and discuss with your CIO or DO about the impact of technology on your company's strategy.</p>
   "
-  history__html: "<p>Fondée en 2002 par Mikaël Dautrey et Véronique de Beaufort,
+  history__html: "<p>Founded in 2002 by Mikaël Dautrey and Véronique de Beaufort,
   ISITIX a d’abord mené des missions de conseil généralistes dans le domaine des SI et de l’organisation.
   Nous étions alors surtout présents dans les grands groupes, en sous-traitance de SSII tiers-one.</p>
   <p>A partir des années 2004-2005, une part importante de notre activité a consisté à gérer des projets
@@ -150,82 +133,97 @@ en:
   en compétence dans le domaine du Big Data nous ont conduits à repackager notre offre pour proposer un service cohérente
   et innovant à nos clients dans le domaine des infrastructures et des projets innovants, cloud et big data.
   </p>"
-  location__html: "<p>Notre siège social est situé dans les Côtes d’Armor, à Perros-Guirec.
-  Nous disposons d'équipes à Rennes, Vannes, Paris, Lyon et Freiburg. Notre zone d’intervention actuelle
-  couvre les régions Ouest et Sud-Ouest, l’Ile de France, la région Lyonnaise, le Royaume-Uni, la Suisse,
-  la Roumanie, l'Allemagne et le Maroc.</p>"
-  figures__html: "<p>Depuis la fondation d’ISITIX, la société a réalisé :</p>
-  <ul><li>280 missions pour 70 clients finaux</li>
-  <li>17 000 heures facturées pour une valeur globale de 1,5 millions d’Euros</li></ul>
-  <p>Nous avons accumulé les missions, l'expérience et les résultats pour le bénéfice de nos clients.</p>"
-  achievements__html: "<p>Quelques missions réalisées :<ul><li>AMOA pour la définition d’une offre de service Cloud
-  <ul class='l1'><li>Catalogue de services</li><li>Principes d’architecture</li><li>Cahier des charges</li></ul></li>
-  <li>Audit Flash des services d’infrastructure</li><li>Audit des flux WAN</li>
-  <li>Audit et d’intégration NetBackup</li><li>Intégration Data Domain (certifié)</li>
-  <li>Intégration d’un proxy parefeu</li><li>Définition et implémentation d’un plan de sauvegarde SI</li>
-  <li>Intégration grid Avamar (certifié)</li></ul></p>"
+  location__html: "<p>Our head office is located in <a href='https://www.invest-in-bretagne.org/' target='_blank'>Brittany</a>, one hour and a half from Paris and Roissy Airport by train,
+  and one hour flight from London and Dublin (<a href='https://flights.ryanair.com/en-gb/flights-to-dinard' target='_blank'>low cost flights to Dinard</a>,
+  regular flights to <a href='https://www.brest.aeroport.bzh/en_US/accueil' target='_blank'>Brest</a>, and <a href='https://www.rennes.aeroport.fr/en/' target='_blank'>Rennes</a>. </p>
+  <p>Currently, we are working successfully with customers and partners in France, the United Kingdom, the United States, Germany and Morocco.</p>"
+  figures__html: "<p>Since its incorporation, ISITIX team has achieved :</p>
+  <ul><li>280 missions for 70 customers</li>
+  <li>17,000 invoiced hours for an overall turnover of 1.5 million Euros</li></ul>
+  <p>Our cumulated experience benefits our customers and prospects :</p>
+  <ul><li>No lag to be up and running<li>
+  <li>field-tested recommendations</li>
+  <li>Technical hindisght<li>
+  </ul>
+  "
+  achievements__html: "<p>Past missions :<ul><li>Project management to define a cloud offering :
+  <ul class='l1'><li>Services catalogue</li><li>Architecture design patterns definition</li><li>Requirement analysis and specification</li></ul></li>
+  <li>Audit of infrastructure services</li><li>Analysis of WAN traffic flows</li>
+  <li>NetBackup integration</li><li>Data Domain integration (our consultant is certified)</li>
+  <li>Configuration of an IDS</li><li>Specifying and implementing a backup plan</li>
+  <li>Configuration grid Avamar (our consultant is certified)</li>
+  <li>Writing a RFP for an hyperconverged infrastructure</li>
+  <li>Writing a RFI and RFP for a SD-WAN solution</li></ul></p>"
 
   # Offre
-  offer__html: "<p>L'offre d'ISITIX couvre l'ensemble des problématiques d'infrastructure, depuis l'audit,
-  la vérification ou la mise à niveau de vos plans de sauvegarde jusqu'à l'organisation de l'évolution de votre
-  datacenter pour accueillir des applications big data ou l'ouvrir vers les solutions cloud.</p>"
-  consulting__html: "<p>Notre offre de conseil couvre l'ensemble des interventions envisageables sur
-  l'infrastructure : <ul><li>Feuille de route technologique</li>
-  <li>Audit des services d'infrastructure</li><li>Audit du PRI/PCI du SI</li>
-  <li>AMOA</li><li>Optimisation de l'exploitation</li><li>Sécurité</li><li>Catalogue de services IT</li></ul></p>"
-  integration__html: "<p>Notre offre d'intégration inclut notamment l'architecture et la gestion des projets d'infrastructure :
-  <ul><li>Gestion de projet</li><li>Architecture technique</li><li>Intégration de solutions technologiques</li>
-  <li>Support technique niveau 2</li></ul>Nos prestations d'intégration et de support technique L2 sont
-  concentrées sur les technologies dont nous sommes <a href='/articles/9'>partenaires ou certifiées</a>,
-  sur <a href='/articles/10'>les outils</a> pour lesquels nous disposons d'une expérience opérationnelle significative</p>"
-  partners__html: "<p>Nous sommes partenaires :</p><p><table class='intext'>
+  offer__html: "<p>We assist you in all your infrastructure projects: </p><ul><li>auditing a legacy system,</li><li>designing the evolution of your architecture,</li>
+  <li>provisionning new services to host big data applications,</li><li>Testing or upgrading your backup plan and DRP,</li><li>anticipating datacenters changes to host distributed or containerized applications or to open it to cloud services</li></ul>"
+  consulting__html: "<p>We follow a well established methodology and best practices to offer you the following services  : <ul><li>Infrastructure roadmap</li>
+  <li>Infrastructure tuning and troubleshooting</li><li>Validation of your IT continuity and disaster recovery plan</li>
+  <li>AMOA</li><li>Optimizing infrastructure operation</li><li>Sécurité</li><li>Catalogue de services IT</li></ul></p>"
+  integration__html: "<p>Our big data, cloud, containers and SD-infrastructure integration offering includes all the step to migrate and benefit from new IT infrastructure paradigms:
+  <ul><li>Gathering technical and organizational requirements</li><li>Assessing the maturity level of your team</li><li>Identifying major objectives and key success factors</li><li>Designing the target architecture</li>
+  <li>Defining the migration path</li><li>Implementing the plan</li>
+  </ul><p>We offer support services, both on-site and remote, for these technologies. Our team has extensive experience in tuning and troubleshooting complex and distributed architectures.</p>"
+  partners__html: "<p>We are partners:</p><p><table class='intext'>
   <tr><td><a href='https://www.apache.org'><img src='/assets/opensource.jpg' width='150em' alt='OPENSOURCE'/></a></td><td><p>
-  L'Opensource, en tant que modèle de divulgation rapide de l'innovation logicielle, a contribué à l'évolution
-  très rapide des technologies de l'information en facilitant la divulgation des nouvelles idées et leur appropriation
-  par les développeurs et les utilisateurs. Nous soutenons et nous participons à ce mouvement, à la fois en tant
-  que bénéficiaire des technologies open source, et dans la diffusion de nos réalisations.</p></td>
+  We value open source, as a model to share and spread software innovation.</p></td>
   </tr>
-  <tr><td><a href='https://www.couchbase.com'><img src='/assets/couchbase.png' width='150em' alt='COUCHBASE'/></a></td><td><p>Nous investissons
-  beaucoup en compétence sur la base de données Couchbase.
-  Elle couvre l'ensemble de nos besoins en stockage NoSQL : performance, scalabilité, architecture distribuée,
-  simplicité d'utilisation et extension vers les mobiles.</p><p>Couchbase est issue de la fusion de deux technologies, la technologie de base colonne CouchDB et la technologie de base en mémoire MemCache.
-  Elle peut par exemple être configurée pour de l'accès rapide en mode row, le stockage de données en flux ou des architectures distribuée multi-sites ou multi-supports.</p>
-  </td></tr><tr><td><a href='http://www.datalearning.eu'><img src='/assets/datalearning.jpg' width='150em' alt='HORTONWORKS'/></a></td><td><p>Datalearning nous apporte son support sur la dimension métier dans les projets de gestion de données, notamment
-  pour l'implantation de modèles mathématiques et d'alogrithmes dans des usines de traitement de données.</p></td>
+  <tr><td><a href='https://www.couchbase.com'><img src='/assets/couchbase.png' width='150em' alt='COUCHBASE'/></a></td><td><p>Our teams are trained on Couchbase technologies. Couchbase is one of the best
+  datastore and an outstanding solution for teams who want to migrate from relationnal databases to distributed ones.</p>
+  </td></tr><tr><td><a href='http://www.datalearning.eu'><img src='/assets/datalearning.jpg' width='150em' alt='DATALEARNING'/></a></td><td><p>Datalearning masters the
+  design of unique mathematical models and data processing algorithms.</p></td>
   </tr><tr><td><a href='http://www.hortonworks.com'><img src='/assets/hw_logo_green_black.png' width='150em' alt='HORTONWORKS'/></a></td><td><p>
-  Hortonworks est une société 100% open-source qui développe, distribue et supporte une version d'Apache Hadoop testée
-  pour les déploiements en environnement de production.</p> <p>Fondée par des contributeurs principaux d'Hadoop,
-  Hortonworks Data Platform est une distribution d'Hadoop certifiée, assemblée pour permettre des développements à grande échelle
-  sur des infrastructures de production.</p><p>Pour plus d'information et pour tester gradtuitement la plateforme,
-  télécharger Hortonworks Sandbox :
-  <a href='http://www.hortonworks.com/sandbox'>www.hortonworks.com/sandbox</a>.</p>
-  </td></tr><tr><td><a href='https://www.cisco.com'><img src='/assets/cisco_logo.png' width='120em' alt='CISCO'/></a></td><td><p>Nos compétences se concentrent sur certains équipements des gammes datacenter et sécurité
-  qui répondent à des besoins spécifiques sur des projets en gestion de données. Nous consulter pour en savoir plus!</p>
-  </td></tr></table></p>"
+  Hortonworks is a 100% open-source company that develops, distributes and supports a tested version of Apache Hadoop
+  for deployments in a production environment. </ p> <p> Founded by Hadoop's main contributors,
+  Hortonworks Data Platform is a certified Hadoop distribution, assembled to enable large scale developments
+  on production infrastructures. </ p> <p> For more information and to test the platform,
+  download Hortonworks Sandbox:
+  <a href='http://www.hortonworks.com/sandbox'> www.hortonworks.com/sandbox </a>.</p>
+  </td></tr><tr><td><a href='https://www.cisco.com'><img src='/assets/cisco_logo.png' width='120em' alt='CISCO'/></a></td><td><p>Our consultants are very skilled in Cisco datacenter and security solutions.</p>
+  </td></tr>
+  </td></tr><tr><td><a href='https://www.agileventures.org'><img src='https://github.com/AgileVentures/agileventures-profile/blob/master/full_logo1.png?raw=true' width='120em' alt='AGILE VENTURES'/></a></td>
+  <td>We support Agile Ventures. Agile Ventures is an official UK Charity (#1170963) dedicated to crowdsourced learning and project development.</p>
+    </td></tr>
+  </table></p>"
 
   # FAQ
-  faq__html: "<h3>Quel est le contenu de l’offre ISITIX ?</h3><p>Nous proposons à nos clients un portefeuille de prestations de Conseil et d’Expertise Technique.</p>
-  <p>Nos interventions couvrent l’ensemble des systèmes et logiciels entre la couche matérielle et la couche applicative du SI.</p>
-  <h3>Pourquoi une nouvelle offre de conseil ?</h3><p>Il ne s’agit pas à proprement parler d’une nouvelle offre puisque notre cabinet existe depuis 15 ans.</p>
-  <p>Avec la maturité et l’expérience acquises, nous pensons qu’il est temps de donner plus de visibilité à notre offre jusque là réservée à quelques « happy few ».</p>
-  <h3>Quel est le profil des consultants ISITIX ?</h3><p>Nous réunissons des profils rares en termes  de séniorité, d’expertise, et d’expérience opérationnelle.</p>
-  <p>Nos consultants savent à la fois analyser les aspects les plus techniques de votre projet et tenir compte des objectifs et contraintes de la  DSI et de  la Direction Générale.</p>
-  <h3>Au-delà du profil des consultants, quels sont les éléments différentiant par rapport à la concurrence ?</h3>
-  <p>Notre mode d’intervention, avec des équipes légères, focalisées, travaillant systématiquement de manière
-  collaborative avec l’écosystème de nos clients.</p><h3>Quelles sont vos conditions d’intervention ?</h3>
-  <p>Nous intervenons principalement au forfait, et occasionnellement en régie pour des clients avec qui nous avons développé une relation de confiance.</p>"
+  faq__html: "<h3>What does ISITIX offer to her clients ?</h3>
+  <p> We offer our clients a portfolio of consulting services and technical expertise on both their legacy infrastructure and trending technologies such as distributed, containerized, cloudified and
+  software-defined infrastructure.</ p>
+  <h3>Which perimeter does you team address ?</h3>
+  <p>Our mandates cover the systems and software stacks between the hardware layer and the application layer.</p>
+  <h3>What makes you different from competitors ?</h3>
+  <p>We are artisans. Our team is small and gathers people who are both experienced and passionate about technologies. We focus on a few projects, to really make a difference for our customers, and assist them to succeed. We do the job in a kind of 'no cure no pay' way.
+  <h3> What is the profile of ISITIX consultants? </h3>
+  <p> We bring together rare profiles in terms of seniority, expertise, and operational experience. </ p>
+  <p> Our consultants know how to analyze the most technical points of your project, but they take the business objectives and constraints of your organisation into account too.</ p>
+  <h3>Beyond the consultants' profile, how will you define the ISITIX way of doing things ?</h3>
+  <p> Our mode of intervention favors light, focused teams, systematically working collaboratively with our customers and their ecosystem. </ p>"
 
   # Expertise
-  expertise__html: "<p>Au-delà d'une compétence d'ensemble du système d'information acquise au fil des missions, nous disposons et nous poursuivons le développement d'une très forte expertise sur les problématiques de sauvegarde, de stockage
-  et d'infrastructure big data  : <ul><li>Architecture cloud</li><li>Orchestration des services Cloud</li>
-  <li>Stockage et sauvegarde</li><li>LAN datacenter</li><li>Bases de données</li><li>Big data
-  <ul><li>Apache hadoop</li><li>Cassandra</li></ul></li>
-  <li>Gestion et analyse des évènements<ul><li>Monitoring exploitation</li><li>Monitoring sécurité</li></ul></li>
-  <li>Communications unifiées</li><li>infrastructure grid</li></ul></p>"
+  expertise__html: "<p>Beyond the amassed know-how about both traditional and more recent infrastructures over our commitments to our customers projets,
+  we keep pace with the continual evolution of technologies: <ul><li>Hybrid architecture with cloud and on-premise assets</li>
+  <li>Containerization and migration from legacy to containerized applications</ li><li>Service orchestration and distributed clusters</li>
+  <li>Backup of non-stopping distributed datastore</li>
+  <li>SD-LAN in the datacenter</li>
+  <li>SD-WAN</li>
+  <li>Hyperconverged servers</li>
+  <li>Security enforcement of big data and distributed architecture</li>"
 
   # Actualités
-  articles__html: "<p>Big data, cloud, évolution des offres, quelques mots sur l'actualité</p>"
-  hyperconverged__html: "<h4>Une arrivée remarquée, stimulée par les perspectives de solutions scale-out</h4>
+  articles__html: "<p>News of the technological world, from big data to SD-anything...</p>"
+  hyperconverged__html: "<h4>Abstract</h4>
+  <p>Hyperconverged infrastructures promise less configuration work, a lower operating cost, and horizontal scaling capabilities.
+  But they come with their own fallacies and pitfalls, mainly:</p>
+  <ul><li>The scaling out process may be more complex than planned because in hyperconverged architecture, memory, processing, storage IO and networking are very intricate</li>
+  <li>You may be locked in a proprietary solution, both in terms of software and in terms of hardware. For instance, existing solutions force that every node is the same</li>
+  <li>Data consistency mechanisms are very complex especially if you need to build a stretched cluster</li>
+  <li>You'll have to be very consistent in the way you manage server licenses</li>
+  </ul>
+  <p>Beyond these challenges, some of our clients are already migrating to hyperconverged solutions because, depending on the use case, they may offer tremendous performance improvement, and simplifiy
+  operation at a relatively low cost</p>
+    <h4>Une arrivée remarquée, stimulée par les perspectives de solutions scale-out</h4>
   <p>Depuis quelques temps, les infrastructures dites 'hyperconvergées', font une arrivée remarquée sur le
   marché de l'IT. Ces solutions, qui pour certaines se sont fait connaître sur  le marché du VDI,
   adressent aujourd’hui les architectures IaaS en offrant  des services à valeur ajoutée  avec a priori
@@ -282,7 +280,11 @@ en:
   <p>Pour les Datacenters centralisés de taille significative, il nous semble prudent d'attendre de réels retours
   d'expérience et des benchmarks indépendants du marché avant de se lancer dans ce type de solutions.</p>"
   
-  san_protocol__html: "<h4>Quel protocole de transport pour le SAN ? FC, FCoE, iSCSI, SMBv3 ou NFSv4 ?</h4>
+  san_protocol__html: "<h4>Abstract</h4>
+  <p>Since the advent of iSCSI, chosing a block-storage transport protocol is a recurring debate. With the growing integration
+  of cloud storage and hybrid storage, and the increasing performance of LAN ethernet, Software Defined Storage Protocol are more and more
+   relevant as an alternative to hardware solutions based on Fiber Channel and its derivative.</p>
+  <h4>Quel protocole de transport pour le SAN ? FC, FCoE, iSCSI, SMBv3 ou NFSv4 ?</h4>
   <p>Depuis l’émergence du iSCSi dans les Datacenters, le choix du protocole de transport en alternative
   au Fibre Channel au niveau SAN est un débat récurrent.
   <h4>Un débat qui refait surface avec l'intégration des normes DCB dans les switches</h4>

@@ -5,9 +5,7 @@ Article.seed do |s|
   s.small_picture = 'societe_small.jpg'
   s.first_picture = 'societe_first.jpg'
   s.small_content = 'company_small'
-  s.big_content = "ISITIX propose à ses clients un portefeuille de prestations de Conseil et d’Expertise Technique.
-Nos interventions couvrent l’ensemble des systèmes et logiciels entre la couche matérielle et la couche
-applicative du SI."
+  s.big_content = "company__html"
   s.icon = 'icon fa-home'
   s.priority = 1
   s.visibility = true
