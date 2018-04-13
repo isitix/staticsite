@@ -21,7 +21,7 @@
         <% end %>
       <!-- courtcircuitage du menu historique article -->
        <li>
-         <%= link_to(t('blog'), 'http://blog.isitix.com', class: 'icon fa-comments', target: '_blank') %>
+         <%= link_to(t('blog'), 'http://blog.isitix.com', class: 'fa fa-external-link', target: '_blank') %>
        </li>
       <li>
         <%= link_to(t('language'), "#{request.env['REQUEST_URI'].split('?').first()}?locale=#{t('local')}", class: 'icon fa-globe') %>

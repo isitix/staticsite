@@ -1,4 +1,15 @@
 Article.seed do |s|
+  s.id = 31
+  s.title = 'articles'
+  s.small_picture = 'actualites_small.jpg'
+  s.first_picture = 'actualites_first.jpg'
+  s.small_content = 'articles_small_content'
+  s.priority = 5
+  s.visibility = true
+  s.big_content = "<p>Big data, cloud, évolution des offres, quelques mots sur l'actualité</p>"
+  s.icon = 'icon fa-comments-o'
+end
+Article.seed do |s|
   s.id = 37
   s.title = 'hyperconverged'
   s.small_picture = 'actualites_small.jpg'
