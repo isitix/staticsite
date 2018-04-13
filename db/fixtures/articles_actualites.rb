@@ -1,15 +1,4 @@
 Article.seed do |s|
-  s.id = 31
-  s.title = 'articles'
-  s.small_picture = 'actualites_small.jpg'
-  s.first_picture = 'actualites_first.jpg'
-  s.small_content = 'articles_small'
-  s.priority = 5
-  s.visibility = true
-  s.big_content = 'articles__html'
-  s.icon = 'icon fa-comments-o'
-end
-Article.seed do |s|
   s.id = 37
   s.title = 'hyperconverged'
   s.small_picture = 'actualites_small.jpg'
