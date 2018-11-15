@@ -9,14 +9,16 @@ capybara-*.html
 /coverage/
 /spec/tmp
 **.orig
+*.orig
 rerun.txt
 pickle-email-*.html
 
 # TODO Comment out this rule if you are OK with secrets being uploaded to the repo
-#config/initializers/secret_token.rb
+config/initializers/secret_token.rb
+config/master.key
 
 # Only include if you have production secrets in this file, which is no longer a Rails default
-# config/secrets.yml
+config/secrets.yml
 
 # dotenv
 # TODO Comment out this rule if environment variables can be committed
@@ -29,6 +31,8 @@ pickle-email-*.html
 ## idea files
 /.idea
 
+=======
+>>>>>>> e264d4dc7aa0f7cff793b3bb786adee0c77d9ce2
 # these should all be checked in to normalize the environment:
 # Gemfile.lock, .ruby-version, .ruby-gemset
 
@@ -46,6 +50,12 @@ bower.json
 # Ignore Byebug command history file.
 .byebug_history
 
+<<<<<<< HEAD
 
 # Ignore application configuration
 /config/application.yml
+=======
+# Ignore node_modules
+node_modules/
+
+>>>>>>> e264d4dc7aa0f7cff793b3bb786adee0c77d9ce2
