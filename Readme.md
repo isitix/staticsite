@@ -1,3 +1,9 @@
+# Licences
+Code source is published under GNU GPL V3
+Text is published under [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/)
+Pictures are copyrighted and can't be used without written authorization
+
+# Tehcnical notes
 ##Menus
 
 id | name | level | menu_id | article_id
