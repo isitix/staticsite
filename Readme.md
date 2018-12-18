@@ -14,7 +14,7 @@ The site runs on Heroku as it is.
 ```
    95  git clone https://github.com/mdautrey/av-static-website.git
 ```
-### Installin ruby, rails and dependencies
+### Installing ruby, rails and dependencies
 ```
    97  cd av-static-website/
    98  rvm install ruby-2.3.1
