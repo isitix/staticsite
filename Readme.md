@@ -4,11 +4,13 @@ Text is published under [Creative Commons Attribution 3.0](https://creativecommo
 Pictures are copyrighted and can't be used without written authorization
 
 # Tehcnical notes
-##Menus
+## Menus
 
 id | name | level | menu_id | article_id
 
 ## Installation
+
+```
     1  sudo userdel debian                                                                                                           
    13  sudo apt-get install openssh-server                                                                                           
    15  gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3                                     
@@ -90,3 +92,4 @@ id | name | level | menu_id | article_id
   453  heroku config:set SECRET_KEY_BASE=''
   454  git push heroku master
   455  gem install foreman
+```
